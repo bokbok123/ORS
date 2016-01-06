@@ -39,7 +39,7 @@ class LoginController extends BaseController
                             if ($user->user_status == 1) {
                                 Auth::login($user);
                                 $this->TransLog->transLogger('Login Module', 'Logged In');
-                                return Redirect::to('admin/dashboard');
+                                return Redirect::to('admin/users');
                             } else {
                                 return'User is deactivated.';
                             }
@@ -62,18 +62,6 @@ class LoginController extends BaseController
                                     return "admin";
                                 } else {
                                     return'User is deactivated.';
-                                }
-                            }
-                            if ($user->user_type == 3) {
-                                /** check whether user's account is active*/
-                                if ($user->user_status == 1) {
-
-                                    Auth::login($user);
-                                    $this->TransLog->transLogger('Login Module', 'Logged In');
-//                            return Redirect::to('/bpo/index');
-                                    return "bpo";
-                                } else {
-                                    return 'User is deactivated.';
                                 }
                             }
                         }

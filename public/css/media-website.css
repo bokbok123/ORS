@@ -1,0 +1,8 @@
+@media screen and (max-width: 1152px){
+    .group-B1a {
+        background-color: gray !important;
+        display: table !important;
+        height: 460px !important;
+        width: 200px !important;
+    }
+}

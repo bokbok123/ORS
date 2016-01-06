@@ -1,0 +1,45 @@
+
+.th_left{
+    background-color: #788C9E;
+}
+.alert-danger{
+    display:none;
+}
+
+/**********
+ADRIAN CSS
+***********/
+.AddBankBranchButton.icons {
+    cursor: pointer;
+    left: 35px;
+    position: absolute;
+    top: 12%;
+}
+
+
+/*************
+BRANCH MODALS
+**************/
+span.errorbankbranchname {
+    left: 2px;
+    position: absolute;
+    top: 95px;
+}
+
+span.errorbranchaddress {
+    left: 2px;
+    position: absolute;
+    top: 147px;
+}
+
+span.errorcontactnum {
+    left: 2px;
+    position: absolute;
+    top: 198px;
+}
+
+span.errorbank {
+    left: 2px;
+    position: absolute;
+    top: 249px;
+}

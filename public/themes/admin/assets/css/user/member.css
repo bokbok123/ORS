@@ -1,0 +1,104 @@
+.view_menus{
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.nav-tabs {
+    /*border-bottom: none !important;*/
+}
+.tabb {
+    background: transparent !important;
+}
+
+#tabBillerView > li.active{
+    border-bottom: none !important;
+}
+
+.tab-content {
+    position: relative;
+    top: 60px;
+}
+
+#tabMembers .table-admin thead th{
+    background-color: #eceff0;
+}
+
+.statusLabel{
+    color: #4e4e4e;
+    float: right;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 6%;
+}
+
+.dropdownDiv{
+    float: right;
+    width: 18%
+}
+.dropdownDiv button,.dropdownDiv button:hover,.dropdownDiv button:focus{
+    text-align: left;
+    box-shadow: none !important;
+    font-size: 12px;
+    color: #777878;
+    height: 34px;
+    width: 92%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../../../fonebayad/assets/img/arrow-drop-down.png") !important;
+    background-repeat: no-repeat;
+    background-position: 150px 10px;
+}
+
+.dropdownDiv ul{
+    width: 92%;
+}
+
+.caret {
+    float: right;
+    margin-top: -10px;
+}
+
+li.active .tabb {
+    border-top: 2px solid #0a94bb !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: auto;
+    margin-left:25px;
+    margin-right:25px;
+    color: white !important;
+    font-weight: bold;
+
+}
+li .tabb{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left:25px;
+    margin-right:25px;
+    color: #252525;
+}
+#tabBillerView{
+    padding-left: 7px !important;
+}
+.table-admin thead th{
+    background-color: #eceff0;
+}
+.table-admin td:last-child {
+    padding-left: 40px;
+}
+#addNewMemberModal .salutation, #addNewMemberModal .salutation:hover, #addNewMemberModal .salutation:focus,
+#addNewMemberModal .user_role, #addNewMemberModal .user_role:hover, #addNewMemberModal .user_role:focus {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../../../fonebayad/assets/img/arrow-drop-down.png") !important;
+    background-position: 200px 10px;
+    background-repeat: no-repeat;
+    box-shadow: none !important;
+    color: #777878;
+    text-align: left;
+}
+.column-left{
+    text-align: left !important;
+}

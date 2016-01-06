@@ -1,0 +1,82 @@
+.th_left{
+    background-color: #788C9E;
+}
+.alert-danger{
+    display:none;
+}
+
+/**********
+ADRIAN CSS
+***********/
+
+input#btncanceladdbank {
+    margin-left: 10px;
+}
+
+/***************
+EDIT BANK MODAL
+****************/
+div.modal-content {
+    height: 150px;
+}
+
+div.AddBankContainer {
+    float: right;
+    width: 50%;
+    padding-top: 11px;
+}
+
+div.fileinput.fileinput-new {
+    float: left;
+    width: 50%;
+}
+div.fileinput{
+    margin-top: -16px !important;
+}
+div.fileinput-preview.thumbnail {
+    height: 210px !important;
+    width: 200px !important;
+    margin-bottom: 0;
+}
+
+div.modal-footer {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    width: 100%;
+}
+
+/***********
+BANK MODALS
+************/
+span.errorbankname {
+    left: 280px;
+    position: absolute;
+    top: 95px;
+}
+
+span.NoBankName {
+    color: #ff0000;
+    left: 300px;
+    position: absolute;
+    top: 153px;
+}
+
+span.BankNameAE {
+    color: #ff0000;
+    left: 300px;
+    position: absolute;
+    top: 150px;
+}
+
+#search-box{
+    top: 102px;
+}
+.dropdownDiv {
+    margin-top: -2%;
+    padding-bottom: 7px !important;
+}
+.btnaddmember-u{
+    top: 19%;
+}

@@ -21,3 +21,18 @@ Route::group(array('after' => 'auth.logout'), function()
     Route::match(array('GET', 'POST'), 'admin', 'LoginController@adminLogin');
 
 });
+
+Route::group(array('before' => 'auth.login'), function()
+{
+    Route::group(array('before' => 'auth.admin'), function(){
+
+        Route::get('admin/users', 'AdminMainController@dashboard');
+
+        Route::match(array('GET', 'POST'), 'admin/users/ajax', 'UserAdminController@ajax');
+
+    });
+
+    Route::group(array('before' => 'auth.user'), function(){
+        Route::get('user/dashboard', 'UserMainController@dashboard');
+    });
+});

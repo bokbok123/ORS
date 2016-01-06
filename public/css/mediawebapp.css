@@ -1,0 +1,76 @@
+@media screen and (max-width: 1483px){
+    #viewerBg {
+        background-color: gray !important;
+        border-radius: 5px !important;
+        bottom: 1px;
+        height: 60px !important;
+        left: 15px;
+        opacity: 0.12;
+        position: absolute;
+        width: 71.7% !important;
+    }
+}
+@media screen and (max-width: 1483px){
+    #viewerBg {
+        background-color: gray !important;
+        border-radius: 5px !important;
+        bottom: 1px;
+        height: 60px !important;
+        left: 15px;
+        opacity: 0.12;
+        position: absolute;
+        width: 71.7% !important;
+    }
+}
+@media screen and (max-width: 1256px){
+    .bills-header {
+        margin-left: 261px !important;
+    }
+}
+@media screen and (max-width: 1163px){
+    .tab-content {
+        margin-right: 1px;
+        top: 5px !important;
+        left: -1% !important;
+    }
+    .float-icon {
+        float: left !important;
+    }
+    .position-icon-billsview {
+        margin-right: 2px;
+        left: -1% !important
+    }
+    .navcons-bv{
+        float: left !important;
+    }
+   .position-icon-viewdevice {
+       top: 48%;
+       left:-1% !important;
+   }
+   .position-icon-bankaccounts {
+       left: 0% !important;
+   }
+    #Listview {
+        width: 101%;
+    }
+    .deviceBinTableContainer{
+        width:101%;
+    }
+    .trashBinTableContainer {
+        width: 101%;
+    }
+
+
+}
+
+@media screen and (max-width: 883px){
+    .steps-business {
+        margin: 0 auto !important;
+    }
+}
+@media screen and (max-width: 1038px){
+    .d-inlineBl {
+        margin-right: 64px !important;
+    }
+}
+

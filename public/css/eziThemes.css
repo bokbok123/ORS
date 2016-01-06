@@ -1,0 +1,294 @@
+table>thead {
+    font-weight: bolder !important;
+    font-size: 13px !important;
+}
+table>tbody {
+    /*font-weight: bolder !important;*/
+    font-size: 10px !important;
+    font-weight: lighter;
+
+}
+/*#tblBills th,#tblBills th ,#tblTrash th {*/
+    /*background: #d6d9db none repeat scroll 0 0 !important;*/
+    /*color: #015242;*/
+/*}*/
+/*.eziThemeController .welcome-user{*/
+/*vertical-align: middle !important;*/
+/*}*/
+.popover[class*="tour-"] {
+    z-index: 999999;
+}
+.eziThemeController{
+    background: #005444 none repeat scroll 0% 0%;
+    /*font-weight: bolder;*/
+}
+.eziThemeControllerlabel{
+    color: #35393c;
+}
+.eziThemeControllerButton{
+    color: #35393c;
+}
+.eziThemeControllerBorderv2{
+    border-color: #c5c5c5;
+    border-top: 13px solid #c5c5c5;
+    border-left: 13px solid transparent;
+}
+.eziThemeControllerradio{
+
+}
+.eziPersonalTheme{
+    /*background: #51a0c7 !important;*/
+    /*color: white;*/
+    background: #005444 !important;
+    color:#ffffff;
+    border-color: #005444;
+}
+.eziPersonalThemeradio{
+    /*color: white;*/
+}
+.eziBusinessTheme{
+    background: #005444 !important;
+    color:#ffffff;
+    border-color: #256041 !important
+
+}
+.eziBusinessThemeradio{
+
+}
+.eziPersonalThemelabel {
+    color: #51a0c7 !important;
+}
+
+.eziBusinessThemelabel {
+    color: #3c8864 !important;
+}
+
+.eziPersonalThemeButton {
+    background: none repeat scroll 0 0 #378db8 !important;
+    border-color:#327192 !important;
+    border-radius: 2px !important;
+    border-style: none none solid !important;
+    border-width: 0 0 4px !important;
+    /*bottom: 12px !important;*/
+    color: white !important;
+    font-family: arial !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.eziBusinessThemeButton:hover, .eziBusinessThemeButton:active, .eziBusinessThemeButton:focus{
+    /*background-repeat: repeat;*/
+    /*background-size: auto auto;*/
+    /*border: 2px solid #005444 !important;*/
+    /*border-radius: 7px !important;*/
+    /*color: #005444 !important;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
+    /*height: 40px;*/
+    /*width: 138px;*/
+    /*background-color: #ffffff !important;*/
+    /*background-image: none !important;*/
+}
+
+.eziBusinessThemeButton {
+    background-repeat: repeat;
+    background-size: auto auto;
+    border: 2px solid #005444;
+    border-radius: 7px !important;
+    color: #005444;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    width: 138px;
+    background-color: #ffffff !important;
+    background-image: none !important;
+
+    /*background-attachment: scroll;*/
+    /*background-clip: border-box;*/
+    /*background-color: transparent !important;*/
+    /*background-image: none;*/
+    /*background-origin: padding-box;*/
+    /*background-position: 0 0;*/
+    /*background-repeat: repeat;*/
+    /*background-size: auto auto;*/
+    /*border: 2px solid #005444;*/
+    /*border-radius: 3px !important;*/
+    /*color: #005444;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
+    /*height: 35px;*/
+    /*width: 184px;*/
+    /*margin-top: 8px;*/
+}
+
+
+
+.eziPersonalTheme1{
+
+    /*background: -webkit-linear-gradient(left, #51a0c7 , white) !important; *//* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, #51a0c7, white)!important; *//* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(right, #51a0c7, white)!important; *//* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to right, #51a0c7 , white)!important; *//* Standard syntax (must be last) */
+}
+.eziBusinessTheme1{
+
+    background: -webkit-linear-gradient(left, #3c8864 , white) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #3c8864, white)!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #3c8864, white)!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #3c8864 , white)!important; /* Standard syntax (must be last) */
+    color:#ffffff;
+}
+.eziBusinessThemeBorder {
+    border-color: #3c8864 !important;
+}
+.eziPersonalThemeBorder {
+    border-color: #0a94bb !important;
+}
+.eziBusinessThemeBorderv2 {
+    border-color: #3c8864 #c5c5c5 #c5c5c5 transparent !important;
+}
+.eziPersonalThemeBorderv2 {
+    border-top: 30px solid #015242 !important;
+    border-left: 30px solid transparent !important;
+}
+.btn-ezi-bg
+{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: #378DB8;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #327192;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+}
+.btn-ezi-mid
+{
+    width: 140px;
+    height: 40px;
+    color: white;
+    background: #378DB8;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #327192;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+}
+.btn-ezi-sm
+{
+    width: 140px;
+    height: 40px;
+    color: white;
+    background: #378DB8;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #327192;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.btn-ezi-mid
+{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: #378DB8;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #327192;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.auto-cap {
+    text-transform: capitalize;
+}
+
+
+input[type=checkbox].css-checkboxIcon:checked + label.css-label2 {
+    /*background-position: 0 10px;*/
+    background-image: url("../img/selectedv2.png");
+    background-repeat: no-repeat;
+}
+
+label.css-label2,
+label.css-label2-business {
+    background-image: url("../img/unselectedv2.png");
+    background-repeat: no-repeat;
+    width: 28px !important;
+    height: 28px !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type=checkbox].css-checkbox:checked + label .eziPersonalThemeChecked.eziBusinessThemeChecked {
+    /*background-image: url("../img/selected-business.png") !important;*/
+    background-image: url("../themes/fonebayad/assets/img/business/selectedv2.png") !important;
+}
+
+input[type=checkbox].css-checkbox:checked + label .eziBusinessThemeChecked {
+    /*background-position: 0 10px;*/
+    background-image: url("../themes/fonebayad/assets/img/business/selectedv2.png") !important;
+}
+input[type=checkbox].css-checkbox:checked + label .eziThemeControllerchecked {
+    background-image: url("../img/selectedv2.png");
+    background-size: contain;
+}
+label .eziThemeControllerchecked,
+label .eziBusinessThemeChecked {
+    background-image: url("../img/unselectedv2.png");
+    background-size: cover;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btnConfirmAddAnother,
+#btnConfirmFinish{
+    width: 170px;
+    height: 40px;
+}
+
+
+
+
+/*-edz 12815*/
+
+.business-button-color{
+    background-color: #3c8864 !important;
+    box-shadow: 0 2px #06522c !important;
+}
+
+.business-text-color{
+    color: #3c8864;
+}
+
+
+.business-background-color{
+    background-color: #3c8864;
+}
+
+.business-active-button{
+    background: #3c8864 none repeat scroll 0 0;
+    color: white;
+}

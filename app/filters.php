@@ -54,6 +54,21 @@ Route::filter('auth.basic', function()
 	return Auth::basic();
 });
 
+Route::filter('auth.admin', function()
+{
+    if (Auth::user()->user_type != 1) {
+        return Redirect::to('/logout');
+    }
+});
+
+Route::filter('auth.user', function()
+{
+    if (Auth::user()->user_type != 2) {
+        return Redirect::to('/logout');
+    }
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Guest Filter
@@ -87,4 +102,23 @@ Route::filter('csrf', function()
 	{
 		throw new Illuminate\Session\TokenMismatchException;
 	}
+});
+
+
+/* CUSTOM */
+Route::filter('auth.login', function()
+{
+    if (Auth::guest())
+    {
+
+        return Redirect::to('login');
+    }
+});
+
+Route::filter('auth.logout', function()
+{
+    if (Auth::check())
+    {
+        return Redirect::guest('/');
+    }
 });

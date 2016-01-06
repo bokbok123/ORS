@@ -57,16 +57,55 @@ return array(
         // breadcrumb template.
         'beforeRenderTheme' => function($theme)
         {
-            // You may use this event to set up your assets.
-            // $theme->asset()->usePath()->add('core', 'core.js');
-            // $theme->asset()->add('jquery', 'vendor/jquery/jquery.min.js');
-            // $theme->asset()->add('jquery-ui', 'vendor/jqueryui/jquery-ui.min.js', array('jquery'));
+            /* Global CSS, JS */
+            $theme->asset()->add('js-jquery', 'js/jquery-1.11.1.min.js');
+            $theme->asset()->add('js-boostrap', 'js/bootstrap.min.js');
+            $theme->asset()->add('js-eziloading', 'js/eziloading.js');
+            $theme->asset()->add('js-boostrap-datepicker', 'js/bootstrap-datepicker.js');
+            $theme->asset()->add('js-jqueryvalidate', 'js/jqueryvalidation/jquery.validate.min.js');
+            $theme->asset()->add('js-jqueryvalidate-addon', 'js/jqueryvalidation/additional-methods.min.js');
+            $theme->asset()->add('js-colorbox', 'js/jquery.colorbox-min.js');
 
-            // Partial composer.
-            // $theme->partialComposer('header', function($view)
-            // {
-            //     $view->with('auth', Auth::user());
-            // });
+            $theme->asset()->add('css-boostrap', 'css/bootstrap.css');
+            $theme->asset()->add('css-boostrap-theme', 'css/bootstrap-theme.css');
+            $theme->asset()->add('css-boostrap-datepicker', 'css/datepicker3.css');
+            $theme->asset()->add('css-colorbox', 'css/colorbox.css');
+            $theme->asset()->usePath()->add('css-chosen', 'css/jquery.chosen.css');
+            $theme->asset()->usePath()->add('css-media', 'css/media.css');
+            $theme->asset()->usePath()->add('js-client', 'js/client.js');
+
+
+            /* Admin CSS */
+            $theme->asset()->usePath()->add('js-jquery', 'js/jquery-1.11.1.min.js');
+
+            $theme->asset()->usePath()->add('css-ofw', 'css/ezi-admin.css');
+            $theme->asset()->usePath()->add('css-jquery-datatable', 'css/jquery.dataTables.css');
+
+            $theme->asset()->usePath()->add('css-side-styles', 'css/user/side-styles.css');
+            $theme->asset()->usePath()->add('css-styles_dropdown', 'css/user/styles_dropdown.css');
+            $theme->asset()->usePath()->add('css-globalset', 'css/user/globalset.css');
+            $theme->asset()->usePath()->add('css-jquery.iviewer-css', 'css/jquery.iviewer.css');
+            $theme->asset()->usePath()->add('css-jquery.iviewer-custom', 'css/user/custom-iviewer.css');
+
+            /* Admin JS */
+            $theme->asset()->usePath()->add('js-jquery-datatable', 'js/jquery.dataTables.min.js');
+            $theme->asset()->usePath()->add('js-chosen', 'js/jquery.chosen.js');
+            $theme->asset()->usePath()->add('js-global', 'js/global.js');
+            $theme->asset()->usePath()->add('js-confirm', 'js/jquery.confirm.js');
+            $theme->asset()->usePath()->add('js-run_prettify', 'js/run_prettify.js');
+            $theme->asset()->usePath()->add('js-admin_setting', 'js/user/admin_setting.js');
+            $theme->asset()->usePath()->add('js-jquery.dropdown', 'js/user/jquery.dropdown.js');
+            $theme->asset()->usePath()->add('js-side-script', 'js/user/side-script.js');
+            $theme->asset()->usePath()->add('js-ajaxForm', 'js/jquery.form.js');
+
+            $theme->asset()->usePath()->add('js-jquery-ui', 'js/jqueryui.js');
+            $theme->asset()->usePath()->add('js-jquery.iviewer', 'js/jquery.iviewer.js');
+
+            /* Zebra - Dialog */
+            $theme->asset()->add('css-zebra-dialog', 'css/zebra-dialog/zebra_dialog.css');
+            $theme->asset()->add('js-zebra-dialog', 'js/zebra_dialog.js');
+
+            $theme->asset()->add('js-zebra-dialog', 'js/jquery-migrate-1.2.1.js');
         },
 
         // Listen on event before render a layout,

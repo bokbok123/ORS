@@ -1,0 +1,786 @@
+/**********
+ADRIAN CSS
+***********/
+body {
+    font-family: 'Roboto-Regular', sans-serif !important;
+    background-image: url(../../img/background-admin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 0px 0px;
+
+}
+
+#profile-caret {
+    margin-top: 20px;
+    right: 25px;
+}
+
+/**********
+ADRIAN CSS
+***********/
+.icon-message {
+    font-family: 'Roboto-Regular', sans-serif;
+    padding: 5px 0 5px 20px;
+}
+
+nav#header-default > div.container-fluid > ul.float-icon > li.d-inline {
+    list-style: none;
+}
+
+nav#header-default.navbar {
+    z-index: 8;
+}
+
+div#notificationContainer-Gift {
+    top: 96px;
+}
+
+div.fade-overlay1 {
+    background: #ffffff none repeat scroll 0 0;
+    height: 100%;
+    margin-top: 103px;
+    opacity: 0.3;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+}
+
+div#menu {
+    z-index: 8;
+}
+
+div#notificationContainer-bell {
+    top: 96px;
+}
+
+div#notificationContainer-message {
+    top: 96px;
+}
+
+div#body-notificationContainer > div#notificationTitle-bell {
+    border-bottom: 1px solid #dddddd;
+    height: 40px;
+    left: 22px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    top: 77px;
+    width: 352px;
+}
+
+div#body-notificationContainer > div#notificationsBody-bell {
+    left: 22px;
+    min-height: 259px;
+    padding: 0 !important;
+    top: 117px;
+    width: 352px;
+}
+
+table#tblnotifgift > tbody > tr.allnotifmsg:first-child {
+    display: block;
+    padding-top: 20px !important;
+}
+
+div#notificationContainer-bell > div#notificationTitle-bell {
+    border-bottom: 1px solid #dddddd;
+}
+
+table#tblnotifgift > tbody > tr.allnotifmsg.even {
+    background: #efeeee;
+}
+
+table#tblnotifbell > tbody > tr.allnotifmsg.even {
+    background: #efeeee;
+}
+
+span.notification_count-offers {
+    background: #af2835;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: normal;
+    margin-left: -10px;
+    margin-left: -14px\0;
+    margin-top: 25px;
+    position: absolute !important;
+}
+
+span.notification_count-bell {
+    background: #af2835;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: normal;
+    margin-left: -10px;
+    margin-left: -14px\0;
+    margin-top: 25px;
+    position: absolute !important;
+}
+
+span.notification_count-message {
+    background: #af2835;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: normal;
+    margin-left: -10px;
+    margin-left: -14px\0;
+    margin-top: 25px;
+    position: absolute !important;
+}
+
+div.cover-page-fade {
+    background: #000000;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 8;
+}
+
+nav#main-header {
+    height: 123px;
+}
+
+nav#new-main-header
+{
+    height: 56px;
+}
+
+nav#main-header > div.container-fluid > ul.navbar-right.custom-navbar-nav {
+    float: right;
+    padding-right: 5px !important;
+    padding-top: 23px;
+    width: auto;
+}
+
+a.navbar-brand {
+    float: left;
+    width: auto;
+}
+
+nav#main-header > div.container-fluid > ul.navbar-right.custom-navbar-nav > li {
+    float: right !important;
+}
+
+nav.nav-icon-message {
+    margin-top: 4px;
+}
+
+table#tblnotifgift > tbody > tr > td {
+    padding: 5px;
+}
+
+div.mxmnwid {
+    margin-left: 0 !important;
+}
+
+/*******************
+OFFER NOTIFICATIONS
+********************/
+table#tblnotifgift > thead > tr {
+    box-shadow: none !important;
+}
+
+span.notif-main > div#notificationContainer-bell::before {
+    left: 178px;
+    top: 77px;
+}
+
+span.notif-main > div#notificationContainer-Gift::before {
+    left: 223px;
+    top: 77px;
+}
+
+span.notif-main > div#notificationContainer-message::before {
+    left: 269px;
+    top: 77px;
+}
+
+ul.navbar-right > li.li-welcome-message > nav.nav-icon-message > a:hover {
+    text-decoration: none;
+}
+
+ul.navbar-right > li.li-welcome-message > nav.nav-icon-message > a:focus {
+    text-decoration: none;
+}
+
+table#tblnotifgift > tbody > tr.allnotifmsg {
+    cursor: pointer;
+}
+
+div#notificationContainer-bell > div#body-notificationContainer > div#notificationFooter-bell {
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    height: 48px;
+    left: 22px;
+    padding-top: 12px;
+    top: 376px;
+    width: 352px;
+}
+
+table#tblNotif > tbody > tr.even {
+    background: #efeeee;
+}
+
+table#tblnotifgift > tbody > tr > td.aside-offers-right > div {
+    width: 100% !important;
+}
+
+table#tblnotifgift > tbody > tr > td {
+    float: left;
+    font-weight: normal;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    width: 199px;
+}
+
+table#tblnotifgift > tbody > tr > td:first-child {
+    padding-left: 10px;
+    width: 80px;
+}
+
+table#tblnotifgift > tbody > tr > td:last-child {
+    margin-left: -10px;
+    width: 45px;
+}
+
+table#tblnotifgift > tbody > tr > td:last-child > div > div:last-child {
+    font-size: 13px;
+    left: -46px !important;
+    top: 19px !important;
+}
+
+/*****************
+NOTIFICATION BELL
+******************/
+table#tblnotifbell > thead > tr {
+    box-shadow: none !important;
+}
+
+span.notif-main > div#notificationContainer-Gift > div#notificationFooter-Gift {
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    height: 48px;
+    left: 58px;
+    padding-top: 12px;
+    top: 376px;
+    width: 352px;
+}
+
+div#notificationContainer-Gift > div#notificationTitle-Gift {
+    height: 40px;
+    left: 58px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    top: 77px;
+    width: 352px;
+}
+
+div#notificationContainer-Gift > div#notificationsBody-Gift {
+    left: 58px;
+    min-height: 259px;
+    padding: 0 !important;
+    top: 117px;
+    width: 352px;
+}
+
+div#notificationContainer-bell > div#body-notificationContainer > div#notificationsBody-bell > div > div#tblnotifbell_wrapper > table#tblnotifbell > tbody > tr > td {
+    border: none;
+    font-weight: normal;
+}
+
+table#tblnotifbellSeeAll > tbody > tr.even {
+    background: #efeeee;
+}
+
+table#tblnotifbellSeeAll > tbody > tr.allnotifmsg {
+    cursor: pointer;
+}
+
+table#tblnotifbell > tbody > tr.allnotifmsg:first-child > td {
+    padding-top: 30px;
+}
+
+table#tblnotifbell > tbody > tr.allnotifmsg {
+    cursor: pointer;
+}
+
+/**************
+NOTIF MESSAGES
+***************/
+div#notificationContainer-message > div#notificationTitle-message {
+    left: 103px;
+    top: 77px;
+    width: 352px;
+}
+
+table#tblnotifmessage > thead > tr {
+    box-shadow: none !important;
+}
+
+div#notificationContainer-message > div#notificationsBody-message {
+    left: 103px;
+    min-height: 259px;
+    top: 113px;
+    width: 352px;
+}
+
+table#tblnotifmessage > tbody > tr:first-child > td {
+    border-top: none !important;
+}
+
+div#notificationContainer-message > div#notificationFooter-message {
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    height: 48px;
+    left: 103px;
+    padding-top: 12px;
+    top: 372px;
+    width: 352px;
+}
+
+/********
+CALENDAR
+*********/
+#dashboard-date {
+    margin: 0;
+    right: 64px;
+}
+
+#dashboard-day {
+    margin: 0;
+    right: 85px;
+}
+/************
+FADE OVERLAY
+*************/
+div.fade-overlay {
+    /*background: #000000;*/
+    height: 100%;
+    margin-top: 45px;
+    opacity: 0.3;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+/**********
+FOOTER CSS
+***********/
+div#policy {
+    height: 81%;
+    padding: 0 !important;
+    top: 19%;
+}
+
+#policy .modal-content {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    height: 100%;
+    margin: 0 auto;
+    max-height: 100% !important;
+    overflow: hidden !important;
+    width: 50%;
+}
+
+div#policy > div.modal-dialog {
+    background: url("../../img/homepage/bgToRegister.png") no-repeat right top / 100% 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+div#terms-and-conditions-container {
+    background: #eaedef;
+    font-size: 12px;
+    font-weight: normal;
+    height: 100%;
+    overflow: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div#policy > div.modal-dialog > div#paymentmethodmodalcontent > div.modal-header {
+    color: #878a8c;
+    font-size: 19px;
+    font-weight: bold;
+    height: 70% !important;
+    padding: 20px !important;
+    text-align: center;
+}
+
+.policy-part {
+    font-size: 14px;
+}
+
+.privacy-policy {
+    padding-bottom: 50px;
+}
+
+.btn-container > button#btn-cancel-term {
+    margin-top: 20px;
+}
+
+/********************
+TERMS AND CONDITIONS
+*********************/
+p.text-policy a, .policy-copyright {
+    color: #616469;
+}
+
+div#ft-tnc {
+    height: 81%;
+    padding: 0 !important;
+    top: 19%;
+}
+
+#ft-tnc .modal-content {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    height: 100%;
+    margin: 0 auto;
+    max-height: 100% !important;
+    overflow: hidden !important;
+    width: 50%;
+}
+
+
+div#ft-tnc > div.modal-dialog {
+    background: url("../../img/homepage/bgToRegister.png") no-repeat right top / 100% 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+div#ft-tnc > div.modal-dialog > div#paymentmethodmodalcontent > div.modal-header {
+    color: #878a8c;
+    font-size: 19px;
+    font-weight: bold;
+    height: 70% !important;
+    padding: 20px !important;
+    text-align: center;
+}
+
+
+div#ft-tnc > div.modal-dialog > div#paymentmethodmodalcontent > div.modal-header > div#terms-and-conditions-container {
+    color: #333;
+    text-align: justify;
+}
+
+.btn-container > button#btn-cancel-term2 {
+    margin-top: 20px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    span.notification_count-bell {
+        margin-left: 10px;
+    }
+
+    span.notification_count-offers {
+        margin-left: 10px;
+    }
+
+    span.notification_count-message {
+        margin-left: 10px;
+    }
+
+    /***************
+    FOR SAFARI ONLY
+    ****************/
+    ::i-block-chrome,.img-footer-right {
+        float: left;
+    }
+
+    ::i-block-chrome,div#ft-tnc > div.modal-dialog {
+        background: url("../../img/homepage/bgToRegister.png");
+    }
+
+    ::i-block-chrome,div#policy > div.modal-dialog{
+        background: url("../../img/homepage/bgToRegister.png");
+    }
+
+    ::i-block-chrome, #profilebtn {
+        padding: 0 !important;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 1px solid white;
+        margin-top: 6px;
+        padding: 0;
+    }
+
+    ::i-block-chrome,.profile-pic{
+        border: none;
+    }
+
+    ::i-block-chrome,.li-welcome-message {
+        padding-right: 6px;
+    }
+
+    ::i-block-chrome,li.dropdown{
+        padding-left: 20px;
+    }
+
+    ::i-block-chrome,div.calc{
+        display: none;
+    }
+
+    ::i-block-chrome,div.nr-header-container > ul.navbar-right {
+        padding-top: 5px;
+    }
+
+}
+
+.mxmnwid {
+    width: 100% !important;
+}
+
+/**************
+NEW HEADER CSS
+***************/
+#page-wrapper {
+    margin-top: 95px;
+}
+
+div.header-nav-border {
+    background: #000000;
+    height: 4px;
+}
+
+nav.new-nav-header {
+    background: #e0e3e4 !important;
+    border-bottom: 1px solid #bfc4c6 !important;
+    height: 65px !important;
+    min-height: 65px !important;
+}
+
+div.nl-header-container {
+    float: left;
+    position: relative;
+    top: -10px;
+    width: 33%;
+}
+
+div.nm-header-container {
+    float: left;
+    width: 33%;
+}
+
+div.nr-header-container {
+    float: right;
+    width: 33%;
+}
+
+nav.new-nav-icons {
+    float: left;
+    margin: 0;
+}
+
+nav.new-nav-icons > a.icon-message {
+    border-right: 1px solid #bfc4c6;
+    display: block;
+    float: left;
+    height: 100%;
+    padding: 20px 12px;
+    width: auto !important;
+}
+
+nav.new-nav-icons > a.icon-message > img {
+    height: auto;
+    width: auto;
+}
+
+nav.new-nav-icons > a.icon-message#notificationLink-Gift{
+    padding: 18px 12px;
+}
+
+div.nl-header-container > a.navbar-brand {
+    height: 100%;
+    margin: 0px 0px 0px 30px !important;
+    padding: 20px 30px 14px 0px;
+}
+
+nav#header-default {
+    top: 65px;
+}
+
+img.new-profile-pic {
+    border: 1px solid #ffffff;
+    height: 38px;
+    width: 38px;
+}
+
+div.nr-header-container > ul.navbar-right > li.li-welcome-message > div.p-welcomeuser {
+    color: #293135 !important;
+    font-size: 12px;
+}
+
+div.nr-header-container > ul.navbar-right > li.li-welcome-message {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 21px;
+}
+
+div.nr-header-container > ul.navbar-right > li > a#profilebtn {
+    padding-bottom: 13px;
+    padding-left: 6px;
+    padding-top: 10px;
+    cursor: default;
+}
+
+div.nr-header-container > ul.navbar-right > li.dropdown > a#profile-caret > span.caret {
+    background: url("../../img/icons/profile-dropdown.png");
+    border: none !important;
+    height: 6px;
+    width: 10px;
+    margin-left: 4px;
+}
+
+div.nr-header-container > ul.navbar-right > li.dropdown > a#profile-caret {
+    padding: 0 0 0 6px;
+}
+
+div.notif_hasNotif {
+    background: #af2835;
+    height: 4px;
+    left: 165px;
+    position: absolute;
+    top: 0;
+    width: 43px;
+}
+
+div.offer_hasNotif {
+    background: #af2835;
+    height: 4px;
+    left: 209px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+}
+
+div.message_hasNotif {
+    background: #af2835;
+    height: 4px;
+    left: 256px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+}
+
+div.nr-header-container > ul.navbar-right > li.dropdown > ul.dropdown-menu > li > a {
+    font-size: 12px;
+}
+
+/**************
+NEW NAV HEADER
+***************/
+div.nm-header-container > nav.navbar > div.container {
+    background: none;
+    width: 100%;
+}
+
+div.nm-header-container > nav.navbar {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav.navbar-nav {
+    float: none !important;
+    margin: 0 !important;
+}
+
+div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li > a {
+    color: #293135;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li > div.active-border {
+    background: #015242;
+    height: 4px;
+    margin-bottom: 5px;
+    margin-top: -9px;
+    width: 100%;
+}
+
+div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li > a {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li.active-li > a {
+    border-bottom: 1px dotted #015242;
+    color: #015242;
+    padding-bottom: 7px;
+}
+
+@media screen and (max-width: 767px){
+    div.nl-header-container {
+        float: left;
+        width: 49%;
+    }
+
+    div.nm-header-container {
+        float: right;
+        width: 16%;
+    }
+
+    div.nr-header-container {
+        float: left;
+        width: 35%;
+    }
+
+    div.nm-header-container > nav.navbar > div.container > div.navbar-collapse {
+        background: #ffffff;
+        border: none;
+        margin: 0;
+        position: absolute;
+        right: -14px;
+        top: 61px;
+    }
+
+    div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li > a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    div.nm-header-container > nav.navbar > div.container > div.navbar-collapse > ul.nav > li > div.active-border {
+        display: none;
+    }
+}
+
+/*****************
+END OF ADRIAN CSS
+******************/
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: -30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+#tblbillerCate_info, #tblbiller_info,
+#tblBank_info{
+    padding: 10px 6px;
+}
+#tblForex_info, #tblTransperaRate_info{
+    padding: 10px 20px
+}

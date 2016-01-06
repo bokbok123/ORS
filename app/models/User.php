@@ -30,4 +30,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
             ->first();
         return $user;
     }
+
+    public function getAllUsers()
+    {
+        $allUsers = User::get();
+    }
 }

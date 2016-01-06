@@ -1,0 +1,268 @@
+html, body {
+    height: 100%;
+}
+.tables {
+    /*border:1px solid #cbcbcb !important;*/
+}
+table{
+    border: 1px solid #cbcbcb !important;
+}
+.modal-header{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #293135;
+}
+
+.tblHeaderGlobal{
+    border-bottom:1px solid #cbcbcb !important;
+
+    /*background: #F3F3F3 !important;*/
+}
+
+
+
+.admin-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.main-container {
+    margin-left:222px;
+    max-width: 1600px;
+}
+.header * {
+    max-width: 1600px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+/*maintenance*/
+
+@media screen and (max-width: 1499px) {
+
+    .maintenance-container{
+        width: 1100px;
+    }
+}
+
+
+
+
+/*added by ajei 09-11-2015*/
+
+/* buttons */
+#tblBills a.btn-view{
+    margin-right: -10%;
+}
+#tblTransperaRate th:first-child,#tblTransperaRate td:first-child,
+#tblBills th:first-child,#tblBills td:first-child,
+#tblReject th:first-child,#tblReject td:first-child,
+#tblForReview th:first-child,#tblForReview td:first-child,
+#tblOFW th:first-child,#tblOFW td:first-child{
+    width: 7% !important;
+}
+#tblAdminSettings th:first-child,#tblAdminSettings td:first-child{
+    width: 9% !important;
+}
+#tblUserDevices th:last-child,#tblUserDevices td:last-child,
+#tblUserAccounts th:last-child,#tblUserAccounts td:last-child,
+#tblPayment th:last-child,#tblPayment td:last-child,
+#tblBills th:last-child,#tblBills td:last-child,
+#tblForex th:last-child,#tblForex td:last-child,
+#tblCurrency th:last-child,#tblCurrency td:last-child{
+    width: 8%;
+    text-align: center;
+
+}
+#tblForReview th:last-child{
+    width: 30% !important;
+    text-align: center;
+}
+#tblActiveUsers th:last-child,#tblActiveUsers td:last-child,
+#tblbankbran th:last-child,#tblbankbran td:last-child,
+#tblOffers th:last-child,#tblOffers td:last-child,
+#tblReject th:last-child,#tblReject th:last-child,
+#tblOFW th:last-child,#tblOFW td:last-child,
+#tblbillerCate th:last-child,#tblbillerCate td:last-child,
+#tblBank th:last-child,#tblBank td:last-child,
+#tblbiller th:last-child,#tblbiller td:last-child,
+#tblForReview th:last-child,#tblForReview td:last-child{
+    padding-left: 10px;
+    text-align: left;
+    width: 21%;
+}
+.btn-fb-cancel:hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent !important;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border: 2px solid #333333;
+    border-radius: 5px !important;
+    color: #333333;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 0;
+    text-shadow: none;
+    width: 184px;
+}
+#tblAdminSettings th:last-child,#tblAdminSettings td:last-child{
+    text-align: left;
+    width: 13%;
+}
+#tblForReview th:nth-child(3){
+    width: 10% !important;
+}
+#tblForReview th:first-child,#tblReject th:first-child,#tblAdminSettings th:first-child,
+#tblUserAccounts th:first-child,#tblUserAccounts td:first-child,#tblUserDevices th:first-child,#tblUserDevices td:first-child,#tblCurrency th:first-child{
+    padding-left: 30px;
+}
+#ofw-process{
+    background: #0a94bb !important;
+    color:#ffffff;
+    border-radius: 0 ;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+    font-size: 11px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-deactivate, .btn-deactivate:hover,
+.deacbutton, .deacbutton:hover,
+.btn-Reject, .btn-Reject:hover,
+.btn-deactivate-member, .btn-deactivate-member:hover{
+    background: #af2835 !important;
+    color: #ffffff !important;
+    border-radius: 0 ;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+    font-size: 11px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-activate, .btn-activate:hover,
+.acbutton, .acbutton:hover,
+.btn-Approve, .btn-Approve:hover,
+.btn-review, .btn-review:hover,
+.btn-Activate-member, .btn-Activate-member:hover{
+    background: #0a94bb;
+    color:#ffffff;
+    border-radius: 0 ;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+    font-size: 11px;
+    display: inline-block;
+    cursor: pointer;
+}
+.editbutton, .editbutton:hover, .editbutton:focus,.btn-view, .btn-view:hover{
+    background: #d6d9db;
+    color:#0a94bb;
+    border-radius: 0 ;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+    font-size: 11px;
+    display: inline-block;
+    cursor: pointer;
+}
+#baseCurrency, #targetCurrency, #baseCurrencyEdit, #targetCurrencyEdit, #baseCurrencyEditTo, #baseCurrencyTo, #branchbankname, #banks_name {
+    /*background: #FFF none repeat scroll 0% 0%;*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../../../fonebayad/assets/img/arrow-drop-down.png") !important;
+    background-repeat: no-repeat;
+    background-position: 510px 10px;
+}
+#tblUserAccounts .table-admin th,#tblUserAccounts .table-admin tr,#tblUserAccounts .table-admin td
+{
+    padding: 8px 10px;
+    border-bottom: 1px solid #D6DADC;
+}
+.table-admin thead th, .table-admin thead{
+    background-color: #0a94bb !important;
+    color: #ffffff !important;
+}
+.table-admin td:last-child {
+    padding-left: 9px;
+}
+.table-admin th, .table-admin tr {
+    border-bottom: 1px solid #d6dadc;
+    color: #fff;
+    font-size: 11px;
+    font-weight: normal !important;
+    padding: 8px 10px;
+}
+.table-admin td {
+    border-bottom: 1px solid #d6dadc;
+    color: #252525;
+    padding: 8px 10px;
+}
+.table-admin{
+    /*border: 1px solid #cbcbcb !important;*/
+}
+table.dataTable.no-footer {
+    border-bottom: medium none !important;
+    box-shadow: 0 5px 10px 0 #272727;
+}
+
+select::-ms-expand {
+    display: none;
+}
+select{
+    appearance: none;
+    -webkit-appearance:  none;
+    -moz-appearance:  none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    /*background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #585858 0%, #111111 100%) repeat scroll 0 0;*/
+    background: transparent;
+    border: 1px solid #111111;
+    color: white !important;
+}
+
+.input-group-addon{
+    border-right:none !important;
+}
+span.textProfChange,a#savenewprofilepic{
+    color: #0a94bb ;
+}
+#ForexEntryForm label,#ForexEditForm label{
+    position: absolute;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+    color: #ffffff !important;
+}
+.fixLeftTop{
+    left: 0 !important;
+    top: 0 !important;
+}
+
+/* IE ONLY*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+        margin-right: 0 !important;
+    }
+    * {
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+}
+.form-control{
+    z-index: 0 !important;
+}

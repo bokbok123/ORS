@@ -1,0 +1,107 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* Styles */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+@media screen and (max-height: 700px){
+    #formBorder {
+        padding-top: 2px !important;
+    }
+    .lowerbox {
+        background-color: #d9e2e9;
+        height: 60px !important;
+        margin-bottom: -20px;
+        margin-left: -20px;
+        padding-top: 0 !important;
+        width: 103.5%;
+    }
+}
+@media screen and (max-width: 1199px){
+    .primary-nav li a{
+        width: 166px !important;
+    }
+    #tabTransaction .DateSearch {
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+        width: 974px !important;
+    }
+    .DueDates {
+        width: 974px !important;
+    }
+    .allBtn, .weekBtn, .overDueBtn {
+        width: 181px !important;
+    }
+    #tblUserTransactionFilters
+    {
+        width: 974px !important;
+    }
+    #forwardImgAll {
+        left: 80px !important;
+    }
+}
+@media screen and (max-width: 991px){
+    .primary-nav li a{
+        width: 129px !important;
+    }
+    #tabTransaction .DateSearch {
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+        width: 754px !important;
+    }
+}

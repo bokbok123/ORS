@@ -1,0 +1,150 @@
+
+body {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+.adminDashboard{
+    background-repeat:no-repeat;
+    background-position: center center ;
+    background-attachment: fixed;
+    background-size: 120% 120%;
+
+}
+
+.adminLayout{
+
+    background-image:url(../../img/background-admin.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.login-content{
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.login-panel{
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;/* half of #content height*/
+    left: 0;
+    width: 100%;
+}
+
+.login-title{
+    text-align: left !important;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: -18px;
+    font-size: x-large;
+    font-weight: bold;
+    background-image:url(../../img/ezibill-white.png) ;
+    background-repeat:no-repeat;
+    height: 80px;
+    background-position: center center;
+}
+.login-corners{
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+.logincomp{
+    border-top: thick double #ff0000 !important;
+}
+.admin-shadow {
+
+
+    position: relative;
+    right: 315px;
+    margin: auto;
+    width: 970px;
+
+}
+.logMeIn{
+    text-align: left !important;
+    width: 341px;
+    height: 235px;
+    -moz-border-radius-bottomright: 50px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+.loginTextBox, .loginbtn, .regOrforgot{
+    text-align: center !important;
+}
+
+.admin_copyRight
+{
+    color: white;
+    padding-top: -50px;
+}
+
+.input_type
+{
+    background-image: none;
+    width: 355px !important;
+    height: 54px !important;
+    border-bottom: 1px solid #ccc !important;
+    border-top: 1px solid #ccc !important;
+    border-left: transparent !important;
+    border-right: 1px solid #ccc !important;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #293135;
+    padding-left: 30px;
+}
+
+.div_textboxes2
+{
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 22px;
+}
+
+.div_textboxes1
+{
+    padding-top: 38px;
+    padding-left: 10px;
+    padding-right: 22px;
+}
+
+.btn-signin
+{
+    border-bottom: 3px;
+    height: 32px;
+    width: 153px
+}
+.reject-btn{
+    background: #af2835  none repeat scroll 0 0 !important;
+    border-color: #006e96 !important;
+    border-radius: 2px !important;
+    border-style: none none solid !important;
+    border-width: 0 0 4px !important;
+    color: #fff !important;
+    font-family: "Roboto-Regular",sans-serif !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    border-bottom: 3px;
+    height: 32px;
+    width: 153px
+}
+
+.div_button
+{
+    padding-top: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 27px;
+}

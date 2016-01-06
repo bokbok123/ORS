@@ -1,0 +1,252 @@
+body {
+	font-family: 'Roboto-Regular',sans-serif;
+	background-color: #ffffff !important
+}
+
+
+th {
+	border: none !important;
+	color: #fff;
+	background-color: #d9dedf !important;
+}
+
+
+tr:nth-child(even) {
+	background-color: #f7fbfc !important;
+}
+
+td {
+	border: none !important;
+}
+
+thead {
+	border-radius: 4px;
+	font-weight: bold;
+	border-bottom: 1px solid #9C9C9C;
+}
+
+body {
+	background-color: #e9f0f6;
+}
+
+.th_left {
+	background-color: #FF0000;
+	border-top-left-radius: 5px;
+}
+
+.th_right {
+	background-color: #FF0000;
+	border-top-right-radius: 5px;
+	width: 50px;
+}
+.tbl-th-color{
+    background-color:#788C9E;
+    border-bottom: 1px solid #cbcbcb !important;
+}
+
+.modal-view {
+	display: none;
+	overflow: hidden;
+}
+
+/*Zab*/
+.top {
+	display: none;
+}
+
+/* modal Css*/
+#billsview {
+	border: 1px solid darkgray;
+	padding: 5px, 5px, 5px, 5px;
+	background-color: #fff;
+}
+
+#imgPlace {
+	border: 1px solid darkgray;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.billsview_div {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.billsview_td {
+	text-align: center;
+	color: gray;
+}
+
+.billsviewbillsview_td2 {
+	text-align: center;
+	color: gray;
+}
+
+#td_billAmount {
+	text-align: right;
+}
+
+.billAmount_tr {
+	border: 1px solid darkgray;
+}
+
+#td_billAmount2 {
+	background: url(../../img/blueHolder.png) no-repeat left;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#td_Biller {
+	font-weight: bold;
+	font-size: 30px;
+	border: 1px solid darkgray;
+}
+
+#td_billCategory {
+	font-size: 12px;
+	color: #ACDFF0;
+}
+
+#btnModalClose {
+	background-color: #378DB8;
+	font-weight: BOLD;
+	color: #23516A;
+	border: 1px solid black;
+}
+
+.badge2 {
+	color: white;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+h2 {
+	background-color: #019dc8;
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    height: 34px;
+    margin-bottom: -5px;
+    padding-top: 9px;
+    text-align: center;
+    width: 140px;
+}
+
+th {
+	font-weight: bold;
+	border-bottom: none !important;
+	border-right: 1px solid #91e2f8;
+	background-color: #d9dedf !important;
+	color: black;
+}
+
+#tblPayment {
+
+
+}
+
+table.dataTable thead .sorting {
+	margin-left: 50px;
+	padding-left: 50px;
+	background: url("../../img/headerSort.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+	background-position: 95%;
+}
+
+.search input[type=text] {
+	 background: url("../../img/magnifying.png") no-repeat scroll 95% center #cbe0ea;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    float: right;
+    height: 42px;
+    margin-top: -5px;
+    padding: 3px 23px 3px 8px;
+    width: 18%;
+}
+
+.copyRight {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.prevBtn {
+	width: 12px;
+	height: 11px;
+	display: inline-block;
+	background: url("../../img/previous.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+.nextBtn {
+	width: 12px;
+	height: 11px;
+	display: inline-block;
+	background: url("../../img/next.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+th, td, h2 {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+.bottom {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+/* chrome specifics */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.search input[type=text] {
+		outline: none !important;
+	}
+}
+
+/* iE10 specifics */
+@media screen\0 {
+	
+	input[type=text]::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	input[type=text]::-ms-reveal {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+}
+
+#footerMenu {
+	margin-top: -40px;
+}
+
+#tblPayment_info {
+	font-size: 11px;
+	font-weight: bolder;
+	padding-top: 13px;
+}
+
+#tblPayment_paginate {
+	padding-top: 16px !important;
+}
+
+#tblPayment thead th {
+	background-color: #e0eaec !important;
+}
+
+td {
+	color: #666666 !important;
+}
+
+th {
+	color: #262525 !important;
+}
+
+tr:hover {
+	background-color: #d1ecf1 !important;
+}
+.billsviewHW{
+    width: 50%;
+    height: 100%
+}

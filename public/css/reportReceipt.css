@@ -1,0 +1,92 @@
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+.imgLogo{
+    width: 100px;
+    height: 20px;
+}
+.imgLogoData{
+    background: url("../themes/fonebayad/assets/img/transpera-logo.png") no-repeat;
+    /*background-size: 100px 100px;*/
+    width: 190px;
+    height: 37px;
+}
+
+.divOne{
+    padding: 10px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+.divOne span:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+.divOne span:nth-child(2){
+    font-weight: bold;
+    font-size: 14px;
+}
+.tblTransactionData{
+    width: 100%;
+    margin-top:20px;
+}
+.tblTransactionData td{
+   border-bottom: 1px solid #c2c2c2;
+    padding: 5px 0;
+}
+.tdTrans{
+    color: #0a94bb;
+}
+.tdTransData{
+    text-align: right;
+}
+.tdAccData{
+    text-align: right;
+}
+
+/* table 2 */
+.tblAccountTo{
+    margin-top: 20px;
+    width: 100%;
+}
+.tblAccountTo td{
+    border-bottom: 1px solid #c2c2c2;
+    padding: 5px 0;
+}
+
+.divSendTo{
+    border-bottom: 1px solid #c2c2c2;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.divSendTo span:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+}
+.tdAcc{
+    color: #035041;
+}
+
+/** adress */
+.divAddressTo{
+    width: 300px;
+}
+.divAddressTo span:first-child{
+    font-weight: bold;
+}
+.divPayInfo{
+    float: right;
+}
+.divPaymentMethod{
+    width: 200px;
+    text-align: right;
+}
+.tblRecipientInfo{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.addressContent{
+    border: 1px solid red;
+}

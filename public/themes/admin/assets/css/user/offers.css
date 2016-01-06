@@ -1,0 +1,141 @@
+#search-box{
+    left: 3% !important;
+}
+.offer-id {
+    display: none;
+}
+label.error {
+    color: red;
+    font-size: 11px;
+    left: 9%;
+    max-width: none !important;
+    position: absolute;
+    width: 160%;
+}
+.modal-content {
+    margin-top: 100px;
+}
+
+.first-container, .second-container{
+    float: left;
+}
+.first-container{
+    width: 45%;
+}
+.second-container{
+    width:28%;
+}
+.offer-des[type=text]{
+    width:270px;
+}
+.offer-des{
+    width: 270px;
+}
+.offer-save{
+    float: right;
+    background: none repeat scroll 0 0 #378db8 !important;
+    border-color: #327192 !important;
+    border-radius: 2px !important;
+    border-width: 0 0 4px !important;
+    color: white !important;
+    font-family: arial !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    width:135px;
+}
+
+
+.tableOffer-container{
+    position: relative;
+    top:100px;
+}
+.search-bar{
+    border: 1px solid transparent;
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+}
+.prevBtn {
+    background: url("../../img/previous.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 11px;
+    width: 12px;
+}
+.nextBtn {
+    background: url("../../img/next.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 11px;
+    width: 12px;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border-radius: 0.7em;
+}
+
+/**********
+ADRIAN CSS
+***********/
+
+/*added by ajei 09-07-2015*/
+#tblOffers .acbutton, #tblOffers .acbutton:hover,#tblOffers .deacbutton, #tblOffers .deacbutton:hover{
+    margin: 0 !important;
+}
+
+#tblOffers tr:hover
+{
+    background-color: #ffffff !important;
+    border: 0;
+}
+
+/*added by ajei*/
+#biller, #editbiller {
+    /*background: #FFF none repeat scroll 0% 0%;*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../../../fonebayad/assets/img/arrow-drop-down.png") !important;
+    background-repeat: no-repeat;
+    background-position: 250px 10px;
+    line-height: 1;
+}
+#points{
+    text-align: right;
+}
+
+#myModaladdoffer #biller,#myModaladdoffer .form-group div input, #offer_instruction,
+#myModalEditoffer #biller,#myModalEditoffer .form-group div input, #editoffer_instruction
+#myModalEditoffer #biller,#myModaladdoffer .form-group div input, #description
+#myModalEditoffer #biller,#myModalEditoffer .form-group div input, #editdescription
+{
+    color: #555;
+}
+#tblOffers th:first-child, #tblOffers td:first-child,#tblOffers th:nth-child(5), #tblOffers td:nth-child(5) {
+    width: 7% !important;
+    padding: 5px !important;
+}
+#tblOffers th:last-child, #tblOffers td:last-child{
+    padding: 0;
+}
+#tblOffers th:nth-child(7), #tblOffers td:nth-child(7) {
+    width: 10% !important;
+}
+#tblOffers th:nth-child(3), #tblOffers td:nth-child(3) {
+    width: 15% !important;
+    word-break: break-all;
+}
+#tblOffers th:nth-child(4), #tblOffers td:nth-child(4) {
+    width: 28% !important;
+    word-break: break-all;
+}
+textarea {
+    resize: none;
+}
+#tblOffers{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.offerOverflow{
+    max-height: 60px;
+    overflow: auto;
+}

@@ -1,0 +1,1355 @@
+body {
+	font-family: 'Roboto-Regular',sans-serif;
+	background-color: #ffffff !important;
+}
+
+.portfolio_views {
+	height: 500px;
+	width: 100%;
+}
+
+#tblBankAccount {
+	width: 100%;
+}
+
+.modal-view {
+	display: none;
+}
+
+.modal-view2 {
+	display: none;
+}
+
+.DateSearch {
+	width: 100%;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+#DateSearch_td_DateFrom {
+	padding-right: 10px;
+}
+
+#DateSearch_td_DateTo {
+	padding-right: 10px;
+}
+
+a {
+	color: #ffffff;;
+}
+
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table; /* [1] */
+	table-layout: fixed; /* [2] */
+	width: 100%; /* [3] */
+}
+
+.tabs__item {
+	display: table-cell; /* [4] */
+}
+
+.tabs__link {
+	display: block; /* [5] */
+}
+
+/**
+ * Primary nav. Extends `.tabs`.
+ *
+ * 1. Stop tabs’ corners leaking out beyond our 4px round.
+ */
+a:active {
+	/*background-color: #175899;*/
+}
+
+thead {
+	font-weight: bold;
+	border-bottom: 1px solid #9C9C9C;
+	background-repeat: no-repeat;
+}
+
+.badge {
+	color: #ffffff;
+	background-color: #0DBAE6;
+	border-radius: 4px;
+	font-size: 11px;
+}
+.datepicker{
+    width: 18% !important;
+}
+.datepicker-switch {
+	color: black;
+}
+
+.dow {
+	color: black;
+}
+
+.prev {
+	color: black;
+}
+
+.next {
+	color: black;
+}
+
+.div-body {
+	padding-top: 10px;
+	background-color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+.LowerBox {
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	background-color: #d7e1e7;
+}
+
+.th_right {
+	background-color: #FF0000;
+}
+
+#bills_action {
+	width: 25px;
+}
+
+#devices_action {
+	width: 25px;
+}
+
+#portfolio_action {
+	width: 155px;
+}
+
+.form-control {
+	color: black;
+}
+
+a, a:focus {
+	color: #0a94bb;
+}
+
+.close_modal {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+}
+
+.badge2 {
+	color: #0DBAE6;
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+.d-inline {
+    display: inline;
+    text-align: center;
+
+}
+.p-details {
+    position: absolute;
+    left: 100px;
+}
+
+.Dashboard_ {
+    height: 71px;
+    left: 35px;
+    position: absolute;
+    top: -4px;
+    width: 60px;
+}
+
+#div_menu {
+	height: 80px;
+}
+
+.tab-pane {
+	min-height: 410px;
+}
+
+.div_amount1 {
+    bottom: -18px;
+    font-weight: bold;
+    left: 22%;
+    position: absolute;
+}
+
+.div_amount2 {
+    bottom: -18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div_amount3 {
+    bottom: -18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.DashboardB
+{
+    height: 60px !important;
+}
+.DashboardC
+{
+    height: 60px !important;
+}
+.DashboardD
+{
+    height: 60px !important;
+}
+
+.div_amount4 {
+    bottom: -18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*////////*/
+#imgPlace {
+    background-color: #fff;
+    border: 1px solid;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 345px;
+}
+
+#billsview {
+	border: 1px solid darkgray;
+	padding: 5px, 5px, 5px, 5px;
+	background-color: #fff;
+}
+
+.billsview_div {
+	padding-bottom: 30px;
+}
+
+.billsview_td {
+	text-align: center;
+	color: gray;
+}
+
+.billsview_td2 {
+	text-align: center;
+	color: gray;
+}
+
+#td_billAmount {
+	text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis
+    /*font-size: 31px !important;*/
+}
+
+.billAmount_tr {
+	/*border: 1px solid darkgray;*/
+}
+
+#td_billAmount2 {
+	background: url(../../img/blueHolder.png) no-repeat left;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#td_Biller {
+	font-weight: bold;
+	font-size: 25px !important;
+	/*border: 1px solid darkgray;*/
+    text-align: center;
+    color: #585858 !important;
+}
+
+#td_billCategory {
+	font-size: 12px;
+	color: #5bc0e1;
+    text-align: center;
+}
+#billsview tbody td:first-child{
+    color: #035041;
+    font-weight: bold;
+    width: 45%;
+}
+.td_dash{
+    text-align: center;
+    width: 10%;
+}
+#billsview tbody td:last-child{
+    color: #111a20;
+}
+#btnModalClose {
+	background-color: #378DB8;
+	font-weight: BOLD;
+	color: #23516A;
+	border: 1px solid black;
+}
+
+tr.red {
+	font-weight: normal;
+    background-color: pink !important;
+}
+
+tr.orange {
+	font-weight: normal;
+	background-color: #fcd4a3 !important;
+}
+
+tr.jim {
+	font-weight: normal;
+	background-color: #c7e3eb !important;
+}
+
+/*Zab admin/users/view/1*/
+th {
+	text-align: left;
+	border-bottom: none !important;
+	background-color: #d9dedf !important;
+	width: 70px !important;
+	color: #666666;
+}
+
+th:first-child, tr td:first-child {
+	text-align: left;
+}
+
+th:nth-child(2) {
+	width: 170px !important;
+}
+
+th:last-child {
+	width: 11% !important;
+}
+
+/*td {*/
+	/*border: none !important;*/
+	/*color: #666666;*/
+/*}*/
+
+#tblUserBills tr:hover, #tblUserBills tr:active, #tblUserBills tr:focus
+	{
+	font-weight: bold;
+	background-color: #dee8ea !important;
+}
+
+#modalHeader {
+	margin-top: 30px;
+	font-size: 30px;
+	color: #7b7b7b;
+}
+
+#cboxLoadedContent {
+	/*border-radius: 15px !important;*/
+}
+
+#cboxContent {
+	border-radius: 15px !important;
+}
+
+#companyNameTexts {
+	width: 750px !important;
+	max-width: 1000px;
+}
+
+.primary-nav li a {
+	text-align: center;
+	padding-top: 7px;
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 14px;
+	height: 30px;
+	width: 100%;
+}
+
+.primary-nav>li.active>a:focus {
+	/*border-top-left-radius: .6em;*/
+	/*border-top-right-radius: .6em;*/
+	background-color: #0a94bb; /*pink*/
+	color: white;
+}
+
+.primary-nav>li.active>a:hover {
+	/*border-top-left-radius: .6em;*/
+	/*border-top-right-radius: .6em;*/
+	background-color: #0a94bb; /*pink*/
+	color: white;
+}
+
+.primary-nav li.active a {
+	/*border-top-left-radius: .6em;*/
+	/*border-top-right-radius: .6em;*/
+	background-color: #0a94bb; /*pink*/
+	color: white;
+}
+
+.tabs__link:active {
+	background: none;
+}
+
+#tblUserAccounts, #tblUserPortfolio, #tblUserDevices {
+
+	border-top: 24px solid #0a94bb;
+	border-right: 2px solid #0a94bb;
+	border-bottom: 5px solid #0a94bb;
+	border-left: 2px solid #0a94bb;
+	background-color: #0a94bb;
+
+}
+
+#tabDetails {
+    background-color: #d7e1e7;
+	border-top: 2px solid #cbcbcb;
+	border-right: 2px solid #cbcbcb;
+	border-bottom: 2px solid #cbcbcb;
+	border-left: 2px solid #cbcbcb;
+}
+
+/*#tblUserAccounts tr:hover, #tblUserPortfolio tr:hover,*/
+	/*#tblUserTransactionsLog tr:hover, #tblUserDevices tr:hover {*/
+	/*background-color: #d7f3fb !important;*/
+	/*background-color: #dee8ea !important;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*#tblUserAccounts tr:nth-child(even):hover, #tblUserPortfolio tr:nth-child(even):hover,*/
+	/*#tblUserTransactionsLog tr:nth-child(even):hover, #tblUserDevices tr:nth-child(even):hover*/
+	/*{*/
+	/*background-color: #d7f3fb !important;*/
+	/*background-color: #dee8ea !important;*/
+    /*font-weight: bold;*/
+/*}*/
+
+#tblUserDevices_info, #tblUserDevices_paginate {
+	/*display: none;*/
+}
+
+#tblUserDevices #selectedRow {
+	background-color: red !important;
+}
+
+/*.btn-activate {*/
+	/*width: 80px !important;*/
+	/*background: #0a94bb !important;*/
+    /*color: #ffffff;*/
+	/*border: none;*/
+/*}*/
+/*.btn-deactivate {*/
+    /*width: 80px !important;*/
+    /*background: #af2835 !important;*/
+    /*border: none;*/
+    /*border-radius: 0;*/
+    /*color: #ffffff;*/
+/*}*/
+/*.btn-deactivate:hover{*/
+    /*color: #ffffff !important;*/
+/*}*/
+
+/*.btn-deactivate:active, .btn-activate:active {*/
+	/*background: #019cc7 !important;*/
+/*}*/
+
+#detailsRow1 {
+	margin-top: 30px;
+}
+
+#detailsRow1 {
+	margin-left: 60px;
+}
+
+#detailsRow2 {
+	white-space: nowrap;
+	margin-left: 60px;
+}
+
+#detailsRow3 {
+	margin-left: 60px;
+}
+
+#detailsRow4 {
+	margin-left: 60px;
+}
+
+#detailsRow1 input, #detailsRow2 input, #detailsRow3 input, #detailsRow4 input,
+	#detailsRow5 input {
+	padding-left: 9px;
+	padding-right: 9px;
+	height: 30px;
+	border-radius: .3em;
+	border-top: 1px solid #bdbdbd;
+	border-right: 1px solid #bdbdbd;
+	border-bottom: 1px solid #bdbdbd;
+	border-left: 1px solid #bdbdbd;
+}
+
+#firstName, #lastName, #middleName, #street, #city, #country, #zip  {
+	/*margin-left: 30px;*/
+	margin-left: 45px;
+}
+
+/*#lastName {*/
+	/*margin-left: 40px;*/
+/*}*/
+
+/*#middleName {*/
+	/*margin-left: 50px;*/
+/*}*/
+
+/*#street {*/
+	/*margin-left: 140px;*/
+	/*margin-left: 45px;*/
+/*}*/
+
+/*#city {*/
+	/*margin-left: 40px;*/
+/*}*/
+
+/*#country {*/
+	/*margin-left: 40px;*/
+/*}*/
+
+#bday {
+	margin-left: 45px;
+	width: 270px;
+}
+
+#workPhone {
+	margin-left: 45px;
+}
+
+#mobilePhone {
+	margin-left: -58px;
+}
+
+.loginDisplay {
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: -14px !important;
+}
+
+#pin input, #password input, #userName input {
+	white-space: nowrap;
+	width: 200px;
+}
+
+#pin {
+	white-space: nowrap;
+    padding-left: 47px;
+}
+
+#userName {
+	white-space: nowrap;
+	left: 45%;
+}
+
+#password {
+	white-space: nowrap;
+	left: 47%;
+	margin-bottom: 20px;
+}
+
+#pinNote {
+	white-space: nowrap;
+	margin-left: 75px;
+	font-weight: bold;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#passNote {
+	white-space: nowrap;
+	margin-left: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+span.active {
+	color: black;
+}
+span.inactive {
+	color: red;
+}
+
+.badge {
+	border-radius: 2em;
+	background-color: #0a94bb;
+}
+
+#btnSave {
+	/*margin-left: 50px;*/
+	/*width: 70%;*/
+	/*background: #08a8dd !important;*/
+	/*border-color: #0487bf !important;*/
+    width: 70%;
+    background: #0a94bb;
+    color: #ffffff;
+    border: none;
+}
+
+#tblUserTransactionFilters td {
+    /*background-color: white !important;*/
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.allBtn, .weekBtn, .overDueBtn {
+	width: 203px;
+	height: 45px;
+	background: url("../../img/navnav.png") no-repeat left rgba(0, 0, 0, 0);
+}
+
+#allCont, #weekCont, #overDueCont {
+	font-weight: bold;
+	padding-top: 14px;
+	padding-left: 26px;
+	text-align: left;
+	height: 100%;
+	width: 100%;
+}
+
+#allCont table th {
+	color: #dfe8ef;
+	background: none !important;
+}
+
+#weekCont table th {
+	color: #dfe8ef;
+	background: none !important;
+}
+
+#overDueCont table th {
+	color: #dfe8ef;
+	background: none !important;
+}
+
+#dollarSign {
+	font-size: 9.5px;
+	padding-right: 1px;
+	font-weight: lighter;
+	font-family: 'Roboto-Regular',sans-serif;
+	font-weight: lighter
+}
+
+#value {
+	font-size: 16px;
+	margin-left: -3px;
+	margin-right: -3px;
+	font-family: 'Roboto-Regular',sans-serif;
+	font-weight: lighter;
+}
+
+#cents {
+	font-family: 'Roboto-Regular',sans-serif;
+	font-size: 9px;
+	left: 40px;
+	bottom: 7px;
+}
+
+#totalBillsDue {
+    bottom: 5px;
+    font-family: "Roboto-Regular",sans-serif;
+    position: absolute;
+    right: 25px;
+}
+
+#allCont table #row1 {
+	position: absolute;
+	left: 100px;
+	bottom: 21px;
+}
+
+#allCont table #row2 {
+	position: absolute;
+	left: 100px;
+	bottom: 6px;
+}
+
+#weekCont table #row1 {
+	position: absolute;
+	bottom: 10px;
+	left: 100px;
+}
+
+#weekCont #result {
+	position: absolute;
+	font-size: 10px;
+	font-family: 'Roboto-Regular',sans-serif;
+	font-weight: lighter;
+	bottom: 1px;
+	padding-left: 1px;
+}
+
+#overDueCont #result {
+	position: absolute;
+	font-size: 10px;
+	font-family: 'Roboto-Regular',sans-serif;
+	font-weight: lighter;
+	bottom: 9px;
+}
+
+/*#tblUserTransactionFilters .btn-primary {*/
+	/*background-image: none !important;*/
+	/*background-color: #2379a4 !important;*/
+/*}*/
+
+#tblUserTransactionFilters .btn-warning {
+	background-image: none !important;
+	background-color: #ff8400 !important;
+}
+
+#tblUserTransactionFilters .btn-danger {
+	background-image: none !important;
+	background-color: #af2835 !important;
+}
+#btnTransactionProcess {
+    float: left;
+    margin-left: 10px !important;
+    margin-top: 4px;
+}
+#tblUserTransactionFilters #btnTransactionProcess1,#btnTransactionProcess {
+	outline: none;
+	background-color: #0a94bb !important;
+    color: #ffffff;
+    margin-left: 0;
+}
+
+#tblUserBills {
+	border: none !important;
+}
+
+#tblUserBills th {
+	border-bottom: 8px solid #ffffff !important;
+}
+
+#tblUserBills th:last-child {
+	text-align: center;
+}
+
+#tblUserBills td:last-child {
+	text-align: center;
+}
+
+.btn-view {
+	width: 80px !important;
+}
+
+#tblUserBills th:nth-child(2) {
+	width: 110px !important;
+}
+
+#tblUserBills th:nth-child(3) {
+	width: 110px !important;
+}
+
+#tabTransaction .DateSearch {
+	padding-top: 0 !important;
+	padding-bottom: 10px !important;
+}
+
+#tblUserTransactionsLog {
+	border: none !important;
+}
+
+#tblUserTransactionsLog th {
+	/*background-color: #e0eaec !important;*/
+}
+
+#tblUserTransactionsLog tr:nth-child(even) {
+	background-color: #f7fbfc !important;
+}
+
+/*#btnTransactionProcess {*/
+	/*outline: none;*/
+	/*background: none !important;*/
+	/*background-color: #0aade0 !important;*/
+	/*margin-left: 10px !important;*/
+	/*width: 100px;*/
+/*}*/
+#tblUserTransactionFilter #dp4{
+    margin-left: -5px;
+    float: left;
+}
+#tblUserTransactionFilter #dp5 {
+	margin-left: 6px !important;
+    float: left;
+}
+
+#tblUserTransactionsLog th:nth-child(2) {
+	width: 50px !important;
+}
+
+#tblUserTransactionsLog th:nth-child(3) {
+	width: 10px !important;
+}
+
+#tblUserTransactionsLog th:nth-child(4) {
+	width: 1px !important;
+}
+
+#tblUserTransactionsLog th:nth-child(5) {
+	width: 1px !important;
+}
+
+#tblUserTransactionsLog th:first-child,#tblUserTransactionsLog td:first-child {
+	white-space: nowrap;
+	width: 11% !important;
+    padding-left: 15px;
+}
+
+#tblUserTransactionsLog th:last-child {
+	width: 25% !important;
+}
+
+#tblUserPortfolio th:last-child {
+	width: 15% !important;
+}
+
+#tblUserBills {
+	/*border-bottom-left-radius: .6em !important;*/
+	/*border-bottom-right-radius: .6em !important;*/
+	/*border-right: 2px solid #cbcbcb !important;*/
+	/*border-bottom: 2px solid #cbcbcb !important;*/
+	/*border-left: 2px solid #cbcbcb !important;*/
+	/*border-top: 0px solid #cbcbcb !important;*/
+}
+
+#tblUserTransactionFilters {
+	margin-left: -1px;
+	width: 100.5%;
+	/*width: 1198px;*/
+	/*border-top-left-radius: .6em !important;*/
+	/*border-top-right-radius: .6em !important;*/
+	/*border-right: 2px solid #cbcbcb !important;*/
+	/*border-left: 2px solid #cbcbcb;*/
+}
+
+#tblUserTransactionFilter #DateSearch_td_DateFrom,
+	#tblUserTransactionFilter  #DateSearch_td_DateTo,
+	#tblUserTransactionFilter #module {
+	width: 200px !important;
+}
+#tabTransaction #module, #user_salutationDrop{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../../../fonebayad/assets/img/arrow-drop-down.png");
+    background-repeat: no-repeat;
+    background-position: 180px 10px;
+}
+#tblUserTransactionFilter #module {
+    float: left;
+    height: 33px;
+    margin-left: -40px;
+    margin-right: 15px;
+    margin-top: 1px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+/*#tblLog {*/
+    /*border-width:0 2px 2px 2px;*/
+    /*border-style: solid;*/
+    /*border-color: #cbcbcb;*/
+/*}*/
+.DueDates {
+	/*width: 1198px;*/
+	/*border-top: 1px solid #cbcbcb !important;*/
+	/*border-right: 1px solid #cbcbcb !important;*/
+	/*border-bottom: 1px solid #cbcbcb !important;*/
+	/*border-left: 1px solid #cbcbcb !important;*/
+    border: none;
+}
+
+#module_chosen {
+    width: 139px !important;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eee !important;
+    cursor: default !important;
+    display: inline !important;
+    opacity: 1 !important;
+}
+ul, ol {
+    margin-bottom: 7px !important;
+    margin-top: 0 !important;
+    padding-bottom: 1%;
+}
+/*.DateSearch {*/
+	/*padding-left: 10px;*/
+	/*border-top: 2px solid #cbcbcb !important;*/
+	/*border-right: 2px solid #cbcbcb !important;*/
+	/*border-bottom: 0px solid #cbcbcb !important;*/
+	/*border-left: 2px solid #cbcbcb !important;*/
+    /*background-color: #ffffff !important;*/
+/*}*/
+
+#tblUserTransactionsLog {
+	/*width: 1198px !important;*/
+	/*border-right: 2px solid #cbcbcb !important;*/
+	/*border-bottom: 2px solid #cbcbcb !important;*/
+	/*border-left: 2px solid #cbcbcb !important;*/
+	/*border-top: 0px solid #cbcbcb !important;*/
+
+}
+
+/*
+#tabTransaction {
+	border-top-left-radius: .6em;
+	border-bottom-left-radius: .6em;
+	border-bottom-right-radius: .6em;
+	border-top: 24px solid #0a94bb;
+	border-right: 2px solid #0a94bb;
+	border-bottom: 5px solid #0a94bb;
+	border-left: 2px solid #0a94bb;
+}
+
+#tblUserTransactionsLog_info {
+	top: 110%;
+	position: absolute;
+}
+
+#tblUserTransactionsLog_paginate {
+	left: 850px;
+	top: 110%;
+	position: absolute;
+	white-space: nowrap;
+}
+*/
+.prevBtn {
+	width: 12px;
+	height: 11px;
+	display: inline-block;
+	background: url("../../img/previous.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+.nextBtn {
+	width: 12px;
+	height: 11px;
+	display: inline-block;
+	background: url("../../img/next.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+.copyRight {
+	padding-top: 15px;
+	text-align: center;
+}
+
+#badgeAccount {
+	position: relative;
+	right: 26% !important;
+	background-color: #0a94bb!important;
+}
+
+#badgePortfolio {
+	position: relative;
+	right: 27% !important;
+	background-color: #0a94bb!important;
+}
+
+#badgeDevice {
+	position: relative;
+	right: 28% !important;
+	background-color: #0a94bb!important;
+}
+
+#badgeBills {
+	position: relative;
+	right: 33% !important;
+	background-color: #0a94bb!important;
+}
+
+#forwardImgAll {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 8px;
+	/*left: 96px;*/
+	background: url("../../img/forwardImage.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+#forwardImgWeek {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: -3px;
+	left: 139px;
+	background: url("../../img/forwardImage.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+#forwardImgDue {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 15px;
+	left: 170px;
+	background: url("../../img/forwardImage.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+.paginate_button {
+	border-radius: 0.7em;
+}
+
+#imgPlace {
+    height: 308px;
+    margin-left: 35px;
+}
+
+#imgPlace>img {
+	height: 304px;
+	/*width: 398px;*/
+    max-width: 100%;
+}
+
+#billsview {
+    background-color: #fff;
+    border: 1px solid darkgray;
+    left: 382px;
+    position: relative;
+    top: -315px;
+}
+
+#cboxLoadedContent {
+	overflow: hidden !important;
+}
+
+#bill_view_btn_close {
+	position: absolute;
+	color: white;
+	width: 120px;
+	right: 193px;
+	top: 29px;
+}
+
+#td_Biller, #td_billCategory {
+	/*border-bottom: 1px solid #bfbfbf !important;*/
+}
+
+#td_billCategory {
+	color: #3297a0;
+}
+
+#dollar {
+    bottom: 0;
+    color: #f52b51 !important;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+}
+.td_accountNumber {
+    color: #585858 !important;
+    font-size: 13px;
+    font-weight: normal !important;
+    text-align: center !important;
+}
+
+.td_duedate, .td_payment, .td_billstatus{
+    text-align: right !important;
+}
+.td_duedateval, .td_paymentval, .td_billstatusval{
+    text-align: left;
+}
+#billsViewModal h3{
+    color: #293135;
+    font-weight: 500;
+}
+ .h3 {
+    color: #666666;
+    font-family: "Roboto-Regular",sans-serif !important;
+    font-size: 34px !important;
+    margin-right: 37px !important;
+}
+
+/* chrome specifics */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.DateSearch {
+		/*width: 1196px;*/
+		width: 100%;
+		padding-bottom: 5px;
+	}
+	.tabs__link {
+		display: block;
+		width: 198px;
+	}
+	#tblUserTransactionFilters {
+		width: 1200px;
+	}
+	.DueDates {
+		/*width: 1200px;*/
+        width:100.2%;
+	}
+	#imgPlace>img {
+		height: 307px;
+		width: 399px;
+	}
+}
+
+#tblUserAccounts_info, #tblUserPortfolio_info, #tblUserDevices_info,
+	#tblUserBills_info, #tblUserTransactionsLog_info {
+	font-size: 11px;
+	font-weight: bolder;
+}
+
+/* iE10 specifics */
+@media screen\0 {
+	input[type=text]::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	input[type=text]::-ms-reveal {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+}
+
+/*#tblUserAccounts tr:nth-child(even), #tblUserPortfolio tr:nth-child(even),*/
+	/*#tblUserDevices tr:nth-child(even) {*/
+	/*background-color: #f7fbfc !important;*/
+/*}*/
+
+.view_menus {
+	height: 30px;
+}
+
+#tabDetailsField {
+	border-radius: .2em !important;
+	box-shadow: 0 7px 15px -13px #666464 inset;
+	height: 28px !important;
+}
+
+#footerMenu {
+	margin-top: -50px !important;
+}
+
+th {
+	background-color: #e0eaec !important;
+}
+
+#emptyEven {
+	background-color: white !important;
+}
+
+#emptyOdd {
+	background-color: #f7fbfc !important;
+}
+
+#drop {
+	transition: 200ms ease-in;
+}
+
+.nava {
+	float: right;
+	margin-right: 150px !important;
+}
+
+.nava a {
+
+	display: block;
+	padding: 10px 10px;
+	transition: 200ms ease-in;
+
+}
+#statusSubMenu {
+	
+}
+
+.nava a:hover {
+	color: white;
+	background-color: #0a94bb !important;
+}
+
+
+.nava ul {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+}
+
+.nava ul li {
+	width: 120px;
+	float: left;
+	position: relative;
+	white-space: nowrap;
+}
+
+/*drop-down animation */
+.nava li ul li {
+	border-right: 1px solid #e3e3e3;
+	border-left: 1px solid #e3e3e3;
+	overflow: hidden;
+	height: 0;
+	transition: 200ms ease-in;
+}
+
+.nava li:hover li {
+	height: 35px;
+}
+
+.nava ul li ul li a:hover {
+	background-color: #0a94bb !important;
+}
+
+.nava ul li ul li ~ li a:hover {
+	background-color: #0a94bb !important;
+}
+.c-white {
+    color: white !important;
+
+}
+.form-control.input-sm {
+    width: 108px;
+}
+.tblUserBills-margin {
+    margin-left: 0;
+    width: 1196px;
+}
+.error {
+    padding-left:15px;
+
+}
+.error {
+    padding-left:15px;
+
+}
+span.error{
+    background: url("../../img/cross_icon.png")  no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    /*position: absolute;*/
+    right: -30px;
+    top: 20px;
+}
+.cross {
+    background: url("../../img/cross_icon.png")  no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.minlength-title{
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: -25px;
+    visibility: hidden;
+    width: 200px;
+}
+.minlength-fname {
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 14px;
+    visibility: hidden;
+    width: 200px;
+}
+
+@media screen and (max-width: 1510px){
+    #tblUserTransactionFilters{
+        width: 100.5%;
+    }
+    input#dp1 {
+        width: 200px !important;
+    }
+    #tabDetails input {
+        width: 200px ;
+    }
+    /*#user_salutation {*/
+        /*width: 80px !important;*/
+    /*}*/
+    #btnSave{
+        width: 70% !important;
+    }
+    .nava{
+        margin-right: 130px !important;
+    }
+}
+
+/*added by ajei 09-11-2015*/
+.marginTop20{
+    margin-top: 20px !important;
+}
+.menuWidth{
+    margin: 0 auto;
+    width: 96%;
+}
+#optionAll {
+    background: #585c5e none repeat scroll 0 0;
+    border-color: #585c5e;
+}
+tbody td:first-child{
+    background: transparent !important;
+    border-left: transparent !important;
+}
+tbody td:last-child{
+    border-right: transparent !important;
+}
+/*#tabAccounts{*/
+    /*min-height: 410px !important;*/
+/*}*/
+#tblUserTransactionsLog img{
+    display: none;
+}
+#tblUserTransactionsLog tr td:last-child span{
+    color: #000000 !important;
+    font-weight: normal !important;
+}
+.overflowBill, .overflowBill:hover {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+    color: #ffffff;
+    text-align: right;
+}
+.toolBill {
+    position: absolute;
+    right: 17px;
+    top: 8px;
+    width: 49%;
+}
+.toolWeek {
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    width: 30%;
+}
+#dollarSignAll {
+    left: 65px;
+    position: absolute;
+    top: 9px;
+}
+#allCont #forwardImgAll {
+    background: rgba(0, 0, 0, 0) url("../../img/forwardImage.png") no-repeat scroll center center;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 15px;
+}
+#dollarSignWeek, #dollarSignDue {
+    left: 110px;
+    position: absolute;
+    top: 9px;
+}
+#totalBillsDueweek, #totalBillsDueover {
+    bottom: 5px;
+    position: absolute;
+    right: 25px;
+}
+table#billsview{table-layout:fixed;}
+table#billsview td{overflow: hidden;}
+#tblUserTransactionsLog a:hover
+{
+    cursor: default;
+    color : #0a94bb;
+}

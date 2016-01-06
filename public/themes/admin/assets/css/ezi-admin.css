@@ -1,0 +1,222 @@
+/****************************************
+** ezibills.css
+****************************************
+
+/****************************************
+** HEADER
+****************************************/
+@-moz-document url-prefix() {
+    @font-face {
+        font-family: "'Roboto-Regular', sans-serif";
+        src: url("../../../../fonts/'Roboto-Regular', sans-serif-Regular.ttf#'Roboto-Regular', sans-serif-Regular") format("opentype");
+    }
+}
+@font-face {
+    font-family: "'Roboto-Regular', sans-serif";
+    src: url("../../../../fonts/'Roboto-Regular', sans-serif-Regular.ttf#'Roboto-Regular', sans-serif-Regular") format("opentype");
+}
+body {
+	font-family: 'Roboto-Regular', sans-serif;
+}
+.popover[class*="tour-"] {
+    z-index: 999999;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc !important;
+}
+#SearchMyBills {
+    border-width: 1px 1px 1px medium !important;
+    border-style: solid solid solid none !important;
+    border-color: #293135 #293135 #293135 transparent !important;
+}
+.input-group-addon {
+    border: 1px solid #293135;
+}
+.header {
+    background: #e0e3e4 none repeat scroll 0 0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.header .navbar-brand {
+	padding: 0;
+}
+
+.header .navbar-brand .logo {
+    left: 0;
+    margin-left: 66px;
+    margin-top: 10px !important;
+}
+
+.header .header-right {
+	float: right;
+	text-align: right;
+	margin-right: 2%;
+}
+
+#welcome{
+    color: gray;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 9px;
+	}
+/****************************************
+** NAVBAR
+****************************************/
+.admin-navbar li a {
+    color: #ffffff !important;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 13px;
+    padding: 15px 16px;
+    text-align: left;
+    text-shadow: none;
+}
+
+.admin-navbar li a:hover {
+	background: #049ac0 !important;
+}
+
+
+.admin-navbar li.dropdown.open a {
+	font-family: 'Roboto-Regular', sans-serif;
+	background: #049ac0 !important;
+}
+
+.admin-navbar li.dropdown.open .dropdown-menu {
+	padding: 0;
+	border: none;
+}
+
+.admin-navbar li.dropdown.open .dropdown-menu li a {
+	background: #0dbae6 !important;
+}u5
+
+.admin-navbar li.dropdown.open .dropdown-menu li a:hover {
+	background: #049ac0 !important;
+}
+
+
+/****************************************
+** MAIN CONTAINER
+****************************************/
+.main-container1 {
+	font-family: 'Roboto-Regular', sans-serif;
+	min-height: 178px;
+	padding: 25px 0;
+	color: #333333;
+}
+
+
+.main-container-biller {
+	font-family: 'Roboto-Regular', sans-serif;
+	min-height: 178px;
+	padding: 9px 0px;
+	color: #333333;
+}
+
+.main-title {
+	font-family: 'Roboto-Regular', sans-serif;
+	color: #2284e6;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+}
+
+
+.btn-success {
+    background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+    background-repeat: repeat-x;
+    border-color: #3e8f3e;
+    width: 68px;
+}
+
+.view_menus {
+    height: 35px;
+    width: 100%;
+}
+
+label.error{
+    color: red;
+}
+textarea {
+    resize:vertical;
+}
+
+
+/*added by ajei 09-07-2015*/
+tbody td:first-child{
+    border-left: 20px solid white;
+    background-color: #FFFFFF !important;
+}
+
+tbody td:last-child{
+    border-right: 20px solid white;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd{
+    background-color: #FFFFFF !important;
+}
+a.btn-view{
+    color: #0a94bb;
+}
+
+.btn-fb {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent !important;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border: 2px solid #0a94bb;
+    border-radius: 5px !important;
+    color: #0a94bb;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 0;
+    text-shadow: none;
+    width: 184px;
+}
+
+#filterActive{
+    border: 1px solid  #293135 !important;
+}
+#tblBills th:first-child, #tblForex th:first-child,
+#tblbankbran th:first-child,#tblBank th:first-child,
+#tblbiller th:first-child,#tblbillerCate th:first-child,
+#tblActiveUsers th:first-child,#tblPayment th:first-child{
+    padding-left: 30px;
+}
+#tblBills th:last-child,#tblActiveUsers th:last-child,
+#tblbillerCate th:last-child,#tblBank th:last-child,
+#tblbankbran th:last-child,#tblOffers th:last-child,
+#tblBills td:last-child{
+    text-align: center;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    color: #015142 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: 1px solid #b1afaf;
+    color: #015142 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #585858 0%, #111111 100%) repeat scroll 0 0;
+    border: 1px solid #111111;
+    color: white !important;
+}

@@ -1,0 +1,411 @@
+body {
+	font-family: 'Roboto-Regular',sans-serif;
+	background-color: #ffffff !important
+}
+.modal-view {
+	display: none;
+	overflow: hidden;
+}
+table.dataTable thead .sorting {
+	margin-left: 50px;
+	padding-left: 50px;
+	background: url("../../img/headerSort.png") no-repeat scroll right
+		center rgba(0, 0, 0, 0);
+
+}
+
+thead {
+	border-radius: 4px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+}
+th {
+	border-bottom: none !important;
+	color: black;
+}
+th:last-child {
+	width: 17% !important;
+	border-right: none;
+}
+tr.highlight {
+	font-weight: bold;
+}
+
+.div-body {
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+.bill_view {
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.badge2 {
+	color: white;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.viewer {
+	width: 400px;
+	height: 340px;
+	border: 1px solid black;
+	position: relative;
+}
+
+#billsview {
+	padding: 5px, 5px, 5px, 5px;
+	background-color: #fff;
+}
+
+.billsview_div {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.billsview_td {
+	text-align: center;
+	color: gray;
+}
+
+.billsviewbillsview_td2 {
+	text-align: center;
+	color: gray;
+}
+
+#td_billAmount {
+	text-align: right !important;
+    border: 0 !important;
+}
+
+
+#td_billAmount2 {
+	background: url(../../img/blueHolder.png) no-repeat left;
+    width: 181px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#td_billCategory {
+	font-size: 12px;
+	color: #6396a7;
+	text-align: center !important;
+	padding: 0px !important;
+}
+#btnModalCloses {
+	background-color: #378DB8;
+	font-weight: BOLD;
+	color: #23516A;
+	border: 1px solid black;
+    width:165px;
+    float:right;
+    position: relative;
+    top:10px;
+}
+tr.red {
+	font-weight: bold;
+}
+
+tr.orange {
+	font-weight: bold;
+}
+
+/*Zab*/
+.top {
+	position: absolute;
+	display: none;
+}
+
+.search input[type=text] {
+	 background: url("../../img/magnifying.png") no-repeat scroll 95% center #cbe0ea;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    float: right;
+    height: 42px;
+    margin-top: -25px;
+    padding: 3px 23px 3px 8px;
+    width: 18%;
+}
+
+tr:nth-child(even) {
+	background-color: #f7fbfc !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+	{
+	color: white;
+	cursor: default;
+	background-color: #019dc8;
+	border: 2px solid #019dc8;
+	border-bottom-color: transparent;
+	border-top-left-radius: .6em;
+	border-top-right-radius: .6em;
+	border-left: 10px solid #019dc8;
+	height: 27px !important;
+	width: 150px;
+	text-align: center;
+	 padding-top: 5px;
+	 font-size: 14px;
+    font-weight: lighter;
+}
+
+.nav-tabs {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+	border: none;
+}
+
+.nav-tabs li a.selected {
+	border-top-left-radius: .6em;
+	border-top-right-radius: .6em;
+}
+
+.nav-tabs li a {
+	padding-top: 12px;
+	text-decoration: none;
+}
+
+#tblBills {
+
+}
+
+#tblBills th {
+	color: #252424;
+	font-size: 11px;
+}
+
+#tblBills th:last-child {
+	width: 10% !important;
+}
+
+#tblBills .btn-view {
+	width: 70px;
+}
+
+.transactionFilters #tblUserTransactionFilters {
+	display: none;
+}
+
+
+#optionAll, #optionWeek, #optionDue {
+	width: 100px !important;
+	height: 50px;
+}
+
+#DateSearch_td_DateFromA, #DateSearch_td_DateToA {
+	padding-top: 19px !important;
+	padding-left: 25px !important;
+}
+
+#btnTransactionProcess {
+	margin-top: 19px !important;
+	margin-left: 25px;
+}
+
+.prevBtn {
+	width: 12px;
+	height: 11px;
+	display: inline-block;
+	background: url("../../img/previous.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+.nextBtn {
+	width: 12px;
+	height: 11px;
+	display: inline-block;
+	background: url("../../img/next.png") no-repeat center center
+		rgba(0, 0, 0, 0);
+}
+
+.paginate_button {
+	border-radius: 0.7em;
+}
+
+.copyRight {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.transactionFilters {
+
+}
+
+#mod {
+	overflow: hidden !important;
+}
+
+td {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+th {
+	font-size: 12px !important;
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+.bottom {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+#cboxContent {
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: white !important;
+}
+
+#cboxLoadedContent {
+	font-family: 'Roboto-Regular',sans-serif !important;
+	border-radius: 10px;
+	border: 1px solid white;
+	overflow: hidden !important;
+}
+
+#imgPlace {
+	border: 1px solid #b0b0b0;
+    margin-left: 30px;
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+}
+
+#billsview {
+	margin-top: 39px !important;
+}
+
+#td_billAmount2 {
+	padding-left: 55px !important;
+	text-align: left;
+}
+
+#btnModalCloses {
+	font-family: 'Roboto-Regular',sans-serif !important;
+	color: white;
+	border: 1px solid;
+	background: linear-gradient(#09a9de, #078bb6);
+}
+
+#btnModalCloses:active {
+	background: #0b6e8f !important;
+	background-color: #0b6e8f !important;
+}
+.billsviewtddetails{
+    padding-left: 20px;
+}
+#billsview td {
+	background-color: white;
+}
+
+#dollar {
+	
+	bottom: 83px;
+	left: 237px;
+	position: absolute;
+	font-weight: lighter;
+	font-size: 25px;
+	font-family: 'Roboto-Regular',sans-serif !important;
+	color: #b3c2ca;
+}
+
+h3 {
+	padding-left: 30px;
+	text-align:left;
+	font-size: 30px;
+	color: gray;
+}
+#imgPlace > img {
+    height: 398px;
+    width: 448px;
+}
+
+/* chrome specifics */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.search input[type=text] {
+		outline: none !important;
+	}
+}
+
+/* iE10 specifics */
+@media screen\0 {
+	
+	input[type=text]::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	input[type=text]::-ms-reveal {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+}
+
+#tblBills thead th {
+	background-color: #f3f3f3 !important;
+}
+
+
+
+#tblBills tbody tr:nth-child(even) {
+	background-color: #f7fbfc !important;
+
+}
+
+#tblBills_info {
+	font-size: 11px;
+    font-weight: bolder;
+    padding-top: 13px;
+}
+
+
+#tblBills_paginate {
+	padding-top: 16px !important;
+}
+.table-bills{
+    border-bottom: 1px solid #cbcbcb !important;
+}
+
+
+#footerMenu {
+	margin-top: -40px;
+}
+
+th:nth-child(1) {
+    width: 55px !important;
+}
+
+.btn-view {
+
+
+}
+
+td {
+	color: #666666 !important;
+}
+
+th {
+	color: #262525 !important;
+}
+
+.amount-pay{
+    color:#f52b51 !important;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.bg-table td{
+    background: #ffffff !important;
+}

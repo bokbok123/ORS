@@ -1,0 +1,81 @@
+#logoHolder {
+	width: 100px;
+	height: 100px;
+	border: 1px;
+}
+
+#content {
+	border: 1px solid #b1b1b1;
+	border-radius: 10px;
+	margin-top: 1%;
+	padding-top: 10px;
+	background-color: #e9f0f6;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10%;
+	background: -webkit-linear-gradient(#0dbae6, #99d9e9);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#0dbae6, #99d9e9);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#0dbae6, #99d9e9);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#0dbae6, #99d9e9); /* Standard syntax */
+	border-top-left-radius: 0px !important;
+	border-top: none;
+}
+
+.badge2 {
+	color: white;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+#imgCenter {
+	margin: auto auto auto auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.logoHolderDiv {
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+}
+
+/*Zab*/
+.btn-save {
+	width: 90px;
+}
+
+h2 {
+	margin-bottom: -10px;
+	padding: 15px;
+	text-align: center;
+	width: 180px;
+	border-bottom: none;
+	color: #696969;
+	height: 70px;
+	border-top-left-radius: 8px !important;
+	border-top-right-radius: 8px !important;
+	background-color: #0dbae6;
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+body {
+	font-family: 'Roboto-Regular',sans-serif;
+}
+
+.copyRight {
+	padding-top: 15px;
+	text-align: center;
+}
+
+#warning {
+	font-family: 'Roboto-Regular',sans-serif;
+	color: red !important;
+}
+
+#x {
+	visibility: hidden;
+}

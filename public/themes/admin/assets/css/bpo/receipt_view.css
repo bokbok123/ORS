@@ -1,0 +1,233 @@
+
+body {
+	font-family: 'Roboto-Regular', sans-serif ;
+}
+
+.viewer {
+	width: 520px;
+	height: 450px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.lowerbox {
+	border: 0px solid black;
+	background-color: #d4dee6;
+}
+
+#tabBillEntry {
+	/*  inside */
+	background-color: #ffffff;
+}
+
+.modal-view {
+	display: none;
+	overflow: hidden;
+}
+
+.inline3 {
+	opacity: .3;
+}
+
+#preloader {
+	display: none;
+}
+
+.inline2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.div-body {
+	border-radius: 5px;
+	padding-top: 1px;
+	background-color: #ffffff;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.Reason_textbox {
+	padding-bottom: 10px;
+}
+
+.iviewer_zoom_in {
+	background: url("../../img/zoomIn.png") no-repeat center center
+		rgba(0, 0, 0, 0) !important;
+	border: none !important;
+	height: 35px !important;
+	width: 30px !important;
+	margin-left: 95px !important;
+	transition: all .25s ease-in;
+}
+
+.iviewer_zoom_in:hover {
+	background-color: #6bdae7 !important;
+	border-radius: 5px;
+	border: 2px solid #535353 !important;
+	width: 45px !important;
+	height: 45px !important;
+}
+
+.iviewer_zoom_out {
+	background: url("../../img/zoomOut.png") no-repeat center center
+		rgba(0, 0, 0, 0) !important;
+	border: none !important;
+	height: 35px !important;
+	width: 30px !important;
+	margin-left: 160px !important;
+	transition: all .25s ease-in;
+}
+
+.iviewer_zoom_out:hover {
+	background-color: #6bdae7 !important;
+	border-radius: 5px;
+	border: 2px solid #535353 !important;
+	width: 45px !important;
+	height: 45px !important
+}
+
+
+.iviewer_zoom_fit {
+	background: url("../../img/zoomFit.png") no-repeat center center
+		rgba(0, 0, 0, 0) !important;
+	border: none !important;
+	height: 35px !important;
+	width: 30px !important;
+	margin-left: 180px !important;
+	transition: all .25s ease-in;
+}
+
+.iviewer_zoom_fit:hover {
+	background-color: #6bdae7 !important;
+	border-radius: 5px;
+	border: 2px solid #535353 !important;
+	width: 45px !important;
+	height: 45px !important
+}
+
+.iviewer_rotate_left {
+	background: url("../../img/rotateLeft.png") no-repeat center center
+		rgba(0, 0, 0, 0) !important;
+	border: none !important;
+	height: 35px !important;
+	width: 30px !important;
+	margin-left: 175px !important;
+	transition: all .25s ease-in;
+}
+
+.iviewer_rotate_left:hover {
+	background-color: #6bdae7 !important;
+	border-radius: 5px;
+	border: 2px solid #535353 !important;
+	width: 45px !important;
+	height: 45px !important
+}
+
+.iviewer_rotate_right {
+	background: url("../../img/rotateRight.png") no-repeat center center
+		rgba(0, 0, 0, 0) !important;
+	border: none !important;
+	height: 35px !important;
+	width: 30px !important;
+	margin-left: 230px !important;
+	transition: all .25s ease-in;
+}
+
+.iviewer_rotate_right:hover {
+	background-color: #6bdae7 !important;
+	border-radius: 5px;
+	border: 2px solid #535353 !important;
+	width: 45px !important;
+	height: 45px !important
+}
+
+.iviewer_zoom_status, .iviewer_zoom_zero {
+	display: none;
+}
+
+body {
+	background-color: white !important;
+}
+
+#billHeader {
+	padding-top: 20px !important;
+	text-align: center;
+	white-space: nowrap;
+	width: 12% !important;
+	height: 60px !important;
+	background-color: #019dc8 !important;
+	margin-bottom: -10px !important;
+	border-top-right-radius: .3em;
+	border-top-left-radius: .3em;
+	color: white;
+	font-size: 18px;
+}
+
+#formBorder {
+	color: white;
+	padding-top: 15px !important;
+	padding-bottom: 5px !important;
+	background-color: #019dc8;
+	border: 2px solid #019dc8;
+	border-bottom-color: transparent;
+	border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+
+#formDiv {
+	padding-top: 15px !important;
+	padding-bottom: 20px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-top: 10px solid #019dc8;
+	background-color: white;
+}
+
+.lowerbox {
+	padding-top: 20px !important;
+	margin-bottom: -20px !important;
+	margin-left: -20px !important;
+	width: 103.5% !important;
+	height: 100px;
+	background-color: #b2dae7 !important;
+}
+
+.col-md-offset-9 {
+	margin-left: 73%;
+}
+
+#btnCancel, #btnSave, #btnReject {
+	width: 110% !important;
+}
+
+.copyRight {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#viewer2 {
+	margin-right: 160px !important;
+	width: 640px;
+	height: 500px; border : 1px solid gray;
+	border-radius: 5px !important;
+	border: 1px solid gray
+}
+
+#viewerBg {
+	position: absolute;
+	opacity: .35;
+	height: 60px !important;
+	width: 94.7% !important;
+	left: 15px;
+	bottom: 1px;
+	background-color: gray !important;
+	border-radius: 5px !important;
+}
+
+
