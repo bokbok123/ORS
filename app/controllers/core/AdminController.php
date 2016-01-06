@@ -1,19 +1,18 @@
 <?php
 
-class BaseController extends Controller {
+class AdminController extends Controller {
 
 	/**
 	 * Setup the layout used by the controller.
 	 *
 	 * @return void
 	 */
+	public $theme;
 
-    public $theme;
-
-    public function __construct() {
+	public function __construct() {
         $this->theme = Theme::uses('admin')->layout('default');
     }
-
+	
 	protected function setupLayout()
 	{
 		if ( ! is_null($this->layout))

@@ -11,7 +11,13 @@
 |
 */
 
-Route::get('/', function()
+/** Guest */
+
+Route::match(array('GET', 'POST'), 'logout', 'LoginController@logout');
+
+Route::group(array('after' => 'auth.logout'), function()
 {
-	return View::make('hello');
+
+    Route::match(array('GET', 'POST'), 'admin', 'LoginController@adminLogin');
+
 });
