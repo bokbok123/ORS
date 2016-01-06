@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> ezibills | Login </title>
+    <title> ORS | Login </title>
     <meta charset="utf-8">
     <meta name="keywords" content="{{ Theme::get('keywords') }}">
     <meta name="description" content="{{ Theme::get('description') }}">
