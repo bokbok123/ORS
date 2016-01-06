@@ -137,7 +137,7 @@ class GlobalController extends PublicController
             });
         }
 
-        $cQryObjResult  = $cQryObjTemp->orderby($field,$Sortdir)->get();
+        $cQryObjResult  = $cQryObjTemp->orderBy($field,$Sortdir)->get();
 
         $output = array(
             "sEcho"                 => intval(Input::get('sEcho')),

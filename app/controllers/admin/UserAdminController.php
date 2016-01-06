@@ -64,7 +64,12 @@ class UserAdminController extends AdminController
                             $pro,
                             'Action'
                         );
+                        $dtResult['aaData'][] = $data;
                     }
+
+                    unset($dtResult['objResult']);
+                    echo json_encode($dtResult);
+                    break;
                  }
             }
         }
