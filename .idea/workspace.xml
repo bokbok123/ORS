@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAdminController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserAdminController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/UserAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="71" selection-start="786" selection-end="786" vertical-scroll-proportion="-4.6923075" vertical-offset="405" max-vertical-offset="1428">
+            <state line="66" column="21" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.7287234" vertical-offset="711" max-vertical-offset="1326">
               <folding>
                 <element signature="e#6#96#0" expanded="true" />
               </folding>
@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="32" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7446808" vertical-offset="124" max-vertical-offset="697">
+            <state line="33" column="31" selection-start="791" selection-end="802" vertical-scroll-proportion="-14.846154" vertical-offset="124" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -335,8 +335,8 @@
         <option value="$PROJECT_DIR$/app/controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/public/themes/admin/assets/js/user/index.js" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/UserAdminController.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/UserAdminController.php" />
       </list>
     </option>
   </component>
@@ -1168,19 +1168,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/UserAdminController.php">
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="786" selection-end="786" vertical-scroll-proportion="-4.6923075" vertical-offset="405" max-vertical-offset="1428">
-          <folding>
-            <element signature="e#6#96#0" expanded="true" />
-          </folding>
+        <state line="33" column="31" selection-start="791" selection-end="802" vertical-scroll-proportion="-14.846154" vertical-offset="124" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/UserAdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="32" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7446808" vertical-offset="124" max-vertical-offset="697">
-          <folding />
+        <state line="66" column="21" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.7287234" vertical-offset="711" max-vertical-offset="1326">
+          <folding>
+            <element signature="e#6#96#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

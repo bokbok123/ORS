@@ -21,46 +21,22 @@ class UserAdminController extends AdminController
         /**@$type This for input type.*/
 
         $Logger = new TransLog();
-        $user = new User();
+        $UserModel = new User();
         $type = Input::get('type');
 
         if($type) {
             switch ($type) {
 
                 case 'users-list': {
-                    //Get User Country and State
-                    if(Input::has('status') && Input::get('status')<2){
-                        $status = Input::get('status');
-                        if(Auth::user()->id== 1){
-                            $pending = User::where('user_type', '!=', 0)
-                                ->leftjoin('tbl_usersophisticate', 'id', '=', 'tbl_usersophisticate.userId')
-                                ->where('user_status','=',$status)
-                                ->where('user_emailverification','=','verified');
-                        }else{
-                            $pending = User::where('user_type', '!=', 0)
-                                ->leftjoin('tbl_usersophisticate', 'id', '=', 'tbl_usersophisticate.userId')
-                                ->where('user_countryid', Auth::user()->user_countryId)
-                                ->where('user_status','=',$status)
-                                ->where('user_emailverification','=','verified');
-                        }
-                    }else{
-                        if(Auth::user()->id== 1){
-                            $pending = User::where('user_type', '!=', 0)
-                                ->leftjoin('tbl_usersophisticate', 'id', '=', 'tbl_usersophisticate.userId')
-                                ->where('user_emailverification','=','verified');
-                        }else{
-                            $pending = $UserModel->getUserAdminListCountry();
-                        }
-                    }
-                    $dtResult = self::setDatatable($pending, array(
+                    $pending = $UserModel->getAllUsers();
+                    $dtResult = GlobalController::setDatatable($pending, array(
                             'id',
                             'user_fname',
                             'user_lname',
                             'user_email',
                             'user_username',
                             'user_status',
-                            'user_isNew',
-                            'sop_status'),
+                            'user_type'),
                         'id');
                     foreach ($dtResult['objResult'] as $aRow) {
 
@@ -70,6 +46,24 @@ class UserAdminController extends AdminController
                         } catch (Exception $ex) {
                             $pro = 0;
                         }
+                        switch($pro){
+                            case 1:
+                                $pro = 'Admin';
+                                break;
+                            case 2:
+                                $pro = 'Default';
+                                break;
+                        }
+                        $data = array(
+                            $aRow->id,
+                            $aRow->user_fname,
+                            $aRow->user_lname,
+                            $aRow->user_email,
+                            $aRow->user_username,
+                            $aRow->user_status ? "Active" : "Inactive",
+                            $pro,
+                            'Action'
+                        );
                     }
                  }
             }
